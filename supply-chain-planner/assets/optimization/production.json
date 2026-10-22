@@ -1,0 +1,38 @@
+{
+  "months": [
+    "a",
+    "b"
+  ],
+  "products": [
+    "p"
+  ],
+  "machines": [
+    "borer"
+  ],
+  "max_sales": [
+    [
+      10
+    ],
+    [
+      10
+    ]
+  ],
+  "processing_hours": [
+    [
+      1
+    ]
+  ],
+  "installed": [
+    1
+  ],
+  "down_req": [
+    1
+  ],
+  "profit_per_sold_unit": [
+    3
+  ],
+  "holding_cost": 1,
+  "max_inventory": 0,
+  "store_target": 0,
+  "hours_per_month": 10
+}

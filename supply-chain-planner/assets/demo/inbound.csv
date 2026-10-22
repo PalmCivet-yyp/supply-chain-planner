@@ -1,0 +1,4 @@
+order_id,sku,location,qty,eta,status
+PO-01,FAST-01,GZ,24,2026-10-24,confirmed
+PO-02,TIMING-02,GZ,500,2026-11-29,confirmed
+PO-03,OVERDUE-05,GZ,100,2026-10-18,confirmed

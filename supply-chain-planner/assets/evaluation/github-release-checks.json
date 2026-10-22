@@ -1,0 +1,110 @@
+{
+  "version": "3.1.0",
+  "date": "2026-10-22",
+  "scope": "Local verification from exported repository, not hosted GitHub Actions",
+  "software_checks": {
+    "returncode": 0,
+    "checks": 100
+  },
+  "synthetic_acceptance": {
+    "inventory": {
+      "pass": 16,
+      "fail": 0,
+      "unsupported": 0
+    },
+    "procurement": {
+      "pass": 12,
+      "fail": 0,
+      "unsupported": 0
+    },
+    "sourcing": {
+      "pass": 12,
+      "fail": 0,
+      "unsupported": 0
+    },
+    "sop": {
+      "pass": 12,
+      "fail": 0,
+      "unsupported": 0
+    },
+    "export": {
+      "pass": 8,
+      "fail": 0,
+      "unsupported": 0
+    }
+  },
+  "fixture_sha256": "033abd72ca68767f6b16397b35320f02a0f7efc8b220fe0f908af2a5597847ff",
+  "runner_sha256": "f301c6bd1f112acc9bf8da5f377468b757c1b3c236abf1db63a8f5ac3bd9a629",
+  "recorded_decision_replay": {
+    "reproduced": true,
+    "search_invocations": 0,
+    "totals": {
+      "primary": {
+        "pairs": 100,
+        "v30_feasible": 100,
+        "v31_feasible": 100,
+        "v30_target": 55,
+        "v31_target": 59,
+        "better": 30,
+        "tie": 56,
+        "worse": 14,
+        "both_failed": 0
+      },
+      "repeat": {
+        "pairs": 12,
+        "v30_feasible": 12,
+        "v31_feasible": 12,
+        "v30_target": 8,
+        "v31_target": 8,
+        "better": 6,
+        "tie": 5,
+        "worse": 1,
+        "both_failed": 0
+      }
+    },
+    "scope": "100 primary instances plus 12 extra-seed pairs; repeat runs do not add unique instances."
+  },
+  "chain_scenarios": 3,
+  "chain_cli_returncode": 0,
+  "xlsx": {
+    "cli_returncode": 0,
+    "sheets": [
+      {
+        "name": "Summary",
+        "rows": 114
+      },
+      {
+        "name": "Decisions",
+        "rows": 223
+      },
+      {
+        "name": "Evidence",
+        "rows": 22
+      }
+    ],
+    "no_formulas": true,
+    "freeze_panes": "A2"
+  },
+  "static": {
+    "files": 85,
+    "python_files": 38,
+    "python_310_syntax": true,
+    "markdown_links_resolve": true,
+    "no_detected_local_identity_or_key_patterns": true,
+    "limitations": "Pattern scan is not a security certification."
+  },
+  "benchmark_optimizer_kernels_unchanged": true,
+  "kernel_files": [
+    "scripts/scm/facility.py",
+    "scripts/scm/facility_bounds.py",
+    "scripts/scm/routing.py",
+    "scripts/scm/routing_fast.py",
+    "scripts/scm/production.py",
+    "scripts/scm/multiechelon.py",
+    "scripts/scm/optimization.py",
+    "scripts/scm/optimization_checks.py",
+    "scripts/scm/optimization_common.py"
+  ],
+  "hosted_ci_run": false,
+  "not_a_new_holdout_experiment": true
+}

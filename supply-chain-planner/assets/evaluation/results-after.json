@@ -1,0 +1,396 @@
+{
+  "kind": "synthetic_acceptance",
+  "target_version": "2.1.0",
+  "fixture_sha256": "033abd72ca68767f6b16397b35320f02a0f7efc8b220fe0f908af2a5597847ff",
+  "runner_sha256": "f301c6bd1f112acc9bf8da5f377468b757c1b3c236abf1db63a8f5ac3bd9a629",
+  "scope": "Developer acceptance cases; no real-business savings or independent forecast benchmark.",
+  "summary": {
+    "inventory": {
+      "pass": 16,
+      "fail": 0,
+      "unsupported": 0
+    },
+    "procurement": {
+      "pass": 12,
+      "fail": 0,
+      "unsupported": 0
+    },
+    "sourcing": {
+      "pass": 12,
+      "fail": 0,
+      "unsupported": 0
+    },
+    "sop": {
+      "pass": 12,
+      "fail": 0,
+      "unsupported": 0
+    },
+    "export": {
+      "pass": 8,
+      "fail": 0,
+      "unsupported": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "C01",
+      "category": "inventory",
+      "purpose": "constant quantity",
+      "status": "pass"
+    },
+    {
+      "id": "C02",
+      "category": "inventory",
+      "purpose": "internal missing day",
+      "status": "pass"
+    },
+    {
+      "id": "C03",
+      "category": "inventory",
+      "purpose": "mature item leading gap",
+      "status": "pass"
+    },
+    {
+      "id": "C04",
+      "category": "inventory",
+      "purpose": "unknown history start",
+      "status": "pass"
+    },
+    {
+      "id": "C05",
+      "category": "inventory",
+      "purpose": "documented launch",
+      "status": "pass"
+    },
+    {
+      "id": "C06",
+      "category": "inventory",
+      "purpose": "missing launch day",
+      "status": "pass"
+    },
+    {
+      "id": "C07",
+      "category": "inventory",
+      "purpose": "late PO avoids duplicate",
+      "status": "pass"
+    },
+    {
+      "id": "C08",
+      "category": "inventory",
+      "purpose": "censored sales",
+      "status": "pass"
+    },
+    {
+      "id": "C09",
+      "category": "inventory",
+      "purpose": "zero demand",
+      "status": "pass"
+    },
+    {
+      "id": "C10",
+      "category": "inventory",
+      "purpose": "lost sales versus backlog",
+      "status": "pass"
+    },
+    {
+      "id": "C11",
+      "category": "inventory",
+      "purpose": "warehouse key isolation",
+      "status": "pass"
+    },
+    {
+      "id": "C12",
+      "category": "inventory",
+      "purpose": "future snapshot invariance",
+      "status": "pass"
+    },
+    {
+      "id": "C13",
+      "category": "inventory",
+      "purpose": "warmup disclosure",
+      "status": "pass"
+    },
+    {
+      "id": "C14",
+      "category": "inventory",
+      "purpose": "sealed policy selection",
+      "status": "pass"
+    },
+    {
+      "id": "C15",
+      "category": "inventory",
+      "purpose": "per-decision access dates",
+      "status": "pass"
+    },
+    {
+      "id": "C16",
+      "category": "inventory",
+      "purpose": "history preceding launch",
+      "status": "pass"
+    },
+    {
+      "id": "P01",
+      "category": "procurement",
+      "purpose": "separate currencies",
+      "status": "pass"
+    },
+    {
+      "id": "P02",
+      "category": "procurement",
+      "purpose": "explicit supplier alias",
+      "status": "pass"
+    },
+    {
+      "id": "P03",
+      "category": "procurement",
+      "purpose": "concentration arithmetic",
+      "status": "pass"
+    },
+    {
+      "id": "P04",
+      "category": "procurement",
+      "purpose": "shared upstream",
+      "status": "pass"
+    },
+    {
+      "id": "P05",
+      "category": "procurement",
+      "purpose": "unknown independence",
+      "status": "pass"
+    },
+    {
+      "id": "P06",
+      "category": "procurement",
+      "purpose": "procurement duration",
+      "status": "pass"
+    },
+    {
+      "id": "P07",
+      "category": "procurement",
+      "purpose": "joint line OTIF",
+      "status": "pass"
+    },
+    {
+      "id": "P08",
+      "category": "procurement",
+      "purpose": "due-date population",
+      "status": "pass"
+    },
+    {
+      "id": "P09",
+      "category": "procurement",
+      "purpose": "partial invoice match",
+      "status": "pass"
+    },
+    {
+      "id": "P10",
+      "category": "procurement",
+      "purpose": "invoice discrepancy",
+      "status": "pass"
+    },
+    {
+      "id": "P11",
+      "category": "procurement",
+      "purpose": "duplicate spend id",
+      "status": "pass"
+    },
+    {
+      "id": "P12",
+      "category": "procurement",
+      "purpose": "reversed cycle dates",
+      "status": "pass"
+    },
+    {
+      "id": "T01",
+      "category": "sourcing",
+      "purpose": "TCO arithmetic",
+      "status": "pass"
+    },
+    {
+      "id": "T02",
+      "category": "sourcing",
+      "purpose": "weighted comparison",
+      "status": "pass"
+    },
+    {
+      "id": "T03",
+      "category": "sourcing",
+      "purpose": "hard requirement veto",
+      "status": "pass"
+    },
+    {
+      "id": "T04",
+      "category": "sourcing",
+      "purpose": "unknown requirement",
+      "status": "pass"
+    },
+    {
+      "id": "T05",
+      "category": "sourcing",
+      "purpose": "unverified evidence",
+      "status": "pass"
+    },
+    {
+      "id": "T06",
+      "category": "sourcing",
+      "purpose": "stale evidence",
+      "status": "pass"
+    },
+    {
+      "id": "T07",
+      "category": "sourcing",
+      "purpose": "refuted evidence",
+      "status": "pass"
+    },
+    {
+      "id": "T08",
+      "category": "sourcing",
+      "purpose": "future evidence date",
+      "status": "pass"
+    },
+    {
+      "id": "T09",
+      "category": "sourcing",
+      "purpose": "mixed currency",
+      "status": "pass"
+    },
+    {
+      "id": "T10",
+      "category": "sourcing",
+      "purpose": "missing lifecycle cost",
+      "status": "pass"
+    },
+    {
+      "id": "T11",
+      "category": "sourcing",
+      "purpose": "invalid weights",
+      "status": "pass"
+    },
+    {
+      "id": "T12",
+      "category": "sourcing",
+      "purpose": "weight sensitivity",
+      "status": "pass"
+    },
+    {
+      "id": "O01",
+      "category": "sop",
+      "purpose": "forecast KPI arithmetic",
+      "status": "pass"
+    },
+    {
+      "id": "O02",
+      "category": "sop",
+      "purpose": "zero-demand denominators",
+      "status": "pass"
+    },
+    {
+      "id": "O03",
+      "category": "sop",
+      "purpose": "MAPE coverage",
+      "status": "pass"
+    },
+    {
+      "id": "O04",
+      "category": "sop",
+      "purpose": "backlog carryover",
+      "status": "pass"
+    },
+    {
+      "id": "O05",
+      "category": "sop",
+      "purpose": "capacity limit",
+      "status": "pass"
+    },
+    {
+      "id": "O06",
+      "category": "sop",
+      "purpose": "demand scenario",
+      "status": "pass"
+    },
+    {
+      "id": "O07",
+      "category": "sop",
+      "purpose": "warehouse isolation",
+      "status": "pass"
+    },
+    {
+      "id": "O08",
+      "category": "sop",
+      "purpose": "unassigned owner",
+      "status": "pass"
+    },
+    {
+      "id": "O09",
+      "category": "sop",
+      "purpose": "future history",
+      "status": "pass"
+    },
+    {
+      "id": "O10",
+      "category": "sop",
+      "purpose": "duplicate plan",
+      "status": "pass"
+    },
+    {
+      "id": "O11",
+      "category": "sop",
+      "purpose": "month gap",
+      "status": "pass"
+    },
+    {
+      "id": "O12",
+      "category": "sop",
+      "purpose": "zero supply backlog",
+      "status": "pass"
+    },
+    {
+      "id": "X01",
+      "category": "export",
+      "purpose": "portable formula export",
+      "status": "pass"
+    },
+    {
+      "id": "X02",
+      "category": "export",
+      "purpose": "leading zero identifier",
+      "status": "pass"
+    },
+    {
+      "id": "X03",
+      "category": "export",
+      "purpose": "formula-like identifier",
+      "status": "pass"
+    },
+    {
+      "id": "X04",
+      "category": "export",
+      "purpose": "blocked quantity stays blank",
+      "status": "pass"
+    },
+    {
+      "id": "X05",
+      "category": "export",
+      "purpose": "missing price stays blank",
+      "status": "pass"
+    },
+    {
+      "id": "X06",
+      "category": "export",
+      "purpose": "empty projection",
+      "status": "pass"
+    },
+    {
+      "id": "X07",
+      "category": "export",
+      "purpose": "overwrite protection",
+      "status": "pass"
+    },
+    {
+      "id": "X08",
+      "category": "export",
+      "purpose": "backtest sheet",
+      "status": "pass"
+    }
+  ]
+}

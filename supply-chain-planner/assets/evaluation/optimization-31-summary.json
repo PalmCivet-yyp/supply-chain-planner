@@ -1,0 +1,630 @@
+{
+  "evaluation_date": "2026-10-22",
+  "scope": "Native engine 3.0 versus 3.1, not an LLM skill/no-skill causal test",
+  "baseline_git_commit": "a99b2a578583aef0fd9e92c95554bc47cf844ad3",
+  "implementation_git_commit": "06703da1d822a5c0cae43efd7c6dc37305c8b05e",
+  "candidate_frozen_utc": "2026-10-22T08:34:31.220053+00:00",
+  "protocol_sha256": "58d80b9a8e050fcea8a4e36f37927bc82d85e4dda7ea698ecc3777193142fb77",
+  "manifest_sha256": "a2934ee41e6beea5057f9685e1ccac39af7a6020253709650620e124f7fedbf5",
+  "independent_checker_sha256": "86217df70345cf010fe60920da8f6826c3046a62773bdaac3beba1c03eea1dac",
+  "primary_seconds": 10,
+  "primary_seed": 17,
+  "solver_threads": 1,
+  "primary": {
+    "n": 100,
+    "feasible": {
+      "v30": 100,
+      "v31": 100
+    },
+    "target": {
+      "v30": 55,
+      "v31": 59
+    },
+    "changes": {
+      "tie": 56,
+      "worse": 14,
+      "better": 30
+    },
+    "target_regressions": [
+      "R101"
+    ],
+    "weaker_valid_bounds": [],
+    "target_delta_pp": 4.0,
+    "stronger_valid_bounds": [
+      "cap101",
+      "cap102",
+      "cap103",
+      "cap104",
+      "cap111",
+      "cap112",
+      "cap113",
+      "cap114",
+      "cap121",
+      "cap122",
+      "cap123",
+      "cap124",
+      "cap131",
+      "cap132",
+      "cap133",
+      "cap134",
+      "cap44",
+      "cap51",
+      "cap61",
+      "cap62",
+      "cap63",
+      "cap64",
+      "cap71",
+      "cap72",
+      "cap73",
+      "cap74",
+      "cap81",
+      "cap82",
+      "cap83",
+      "cap84",
+      "cap91",
+      "cap92",
+      "cap93",
+      "cap94"
+    ],
+    "median_valid_gap_pct": {
+      "v30": 18.35960490845654,
+      "v31": 0.09163595232503786
+    }
+  },
+  "development": {
+    "n": 12,
+    "feasible": {
+      "v30": 12,
+      "v31": 12
+    },
+    "target": {
+      "v30": 9,
+      "v31": 8
+    },
+    "changes": {
+      "tie": 8,
+      "worse": 1,
+      "better": 3
+    },
+    "target_regressions": [
+      "R101"
+    ],
+    "weaker_valid_bounds": [],
+    "target_delta_pp": -8.333333333333334,
+    "stronger_valid_bounds": [
+      "cap101",
+      "cap134",
+      "cap71"
+    ],
+    "median_valid_gap_pct": {
+      "v30": 25.513999372680424,
+      "v31": 0.05393594053356085
+    }
+  },
+  "holdout": {
+    "n": 88,
+    "feasible": {
+      "v30": 88,
+      "v31": 88
+    },
+    "target": {
+      "v30": 46,
+      "v31": 51
+    },
+    "changes": {
+      "tie": 48,
+      "worse": 13,
+      "better": 27
+    },
+    "target_regressions": [],
+    "weaker_valid_bounds": [],
+    "target_delta_pp": 5.681818181818182,
+    "stronger_valid_bounds": [
+      "cap102",
+      "cap103",
+      "cap104",
+      "cap111",
+      "cap112",
+      "cap113",
+      "cap114",
+      "cap121",
+      "cap122",
+      "cap123",
+      "cap124",
+      "cap131",
+      "cap132",
+      "cap133",
+      "cap44",
+      "cap51",
+      "cap61",
+      "cap62",
+      "cap63",
+      "cap64",
+      "cap72",
+      "cap73",
+      "cap74",
+      "cap81",
+      "cap82",
+      "cap83",
+      "cap84",
+      "cap91",
+      "cap92",
+      "cap93",
+      "cap94"
+    ],
+    "median_valid_gap_pct": {
+      "v30": 17.872969469703094,
+      "v31": 0.09163595232503786
+    }
+  },
+  "by_kind": {
+    "facility": {
+      "n": 44,
+      "feasible": {
+        "v30": 44,
+        "v31": 44
+      },
+      "target": {
+        "v30": 39,
+        "v31": 39
+      },
+      "changes": {
+        "tie": 44
+      },
+      "target_regressions": [],
+      "weaker_valid_bounds": [],
+      "target_delta_pp": 0.0,
+      "stronger_valid_bounds": [
+        "cap101",
+        "cap102",
+        "cap103",
+        "cap104",
+        "cap111",
+        "cap112",
+        "cap113",
+        "cap114",
+        "cap121",
+        "cap122",
+        "cap123",
+        "cap124",
+        "cap131",
+        "cap132",
+        "cap133",
+        "cap134",
+        "cap44",
+        "cap51",
+        "cap61",
+        "cap62",
+        "cap63",
+        "cap64",
+        "cap71",
+        "cap72",
+        "cap73",
+        "cap74",
+        "cap81",
+        "cap82",
+        "cap83",
+        "cap84",
+        "cap91",
+        "cap92",
+        "cap93",
+        "cap94"
+      ],
+      "median_valid_gap_pct": {
+        "v30": 18.35960490845654,
+        "v31": 0.09163595232503786
+      }
+    },
+    "routing": {
+      "n": 56,
+      "feasible": {
+        "v30": 56,
+        "v31": 56
+      },
+      "target": {
+        "v30": 16,
+        "v31": 20
+      },
+      "changes": {
+        "tie": 12,
+        "worse": 14,
+        "better": 30
+      },
+      "target_regressions": [
+        "R101"
+      ],
+      "weaker_valid_bounds": [],
+      "target_delta_pp": 7.142857142857143,
+      "stronger_valid_bounds": []
+    }
+  },
+  "six_routing_instances_three_seed_pairs": {
+    "n": 18,
+    "feasible": {
+      "v30": 18,
+      "v31": 18
+    },
+    "target": {
+      "v30": 12,
+      "v31": 11
+    },
+    "changes": {
+      "tie": 7,
+      "worse": 2,
+      "better": 9
+    },
+    "target_regressions": [
+      "R101"
+    ],
+    "weaker_valid_bounds": [],
+    "target_delta_pp": -5.555555555555555,
+    "stronger_valid_bounds": []
+  },
+  "original_seven_seconds": 60,
+  "original_seven": {
+    "v30": [
+      {
+        "id": "H1",
+        "feasible": true,
+        "target_met": true,
+        "objective": 11646596.974035554,
+        "vehicles": null,
+        "valid_bound_gap": 0.3690797020862407
+      },
+      {
+        "id": "H2",
+        "feasible": true,
+        "target_met": true,
+        "objective": 1654.5391437616042,
+        "vehicles": 19,
+        "valid_bound_gap": null
+      },
+      {
+        "id": "H3",
+        "feasible": true,
+        "target_met": true,
+        "objective": 100278.70370370394,
+        "vehicles": null,
+        "valid_bound_gap": null
+      },
+      {
+        "id": "H4",
+        "feasible": true,
+        "target_met": true,
+        "objective": 108855.0,
+        "vehicles": null,
+        "valid_bound_gap": null
+      },
+      {
+        "id": "H5",
+        "feasible": true,
+        "target_met": true,
+        "objective": 47.660149583799786,
+        "vehicles": null,
+        "valid_bound_gap": null
+      },
+      {
+        "id": "L1",
+        "feasible": true,
+        "target_met": true,
+        "objective": 13361927.449235704,
+        "vehicles": null,
+        "valid_bound_gap": 0.396500525601847
+      },
+      {
+        "id": "L2",
+        "feasible": true,
+        "target_met": true,
+        "objective": 1487.3143483849058,
+        "vehicles": 17,
+        "valid_bound_gap": null
+      }
+    ],
+    "v31": [
+      {
+        "id": "H1",
+        "feasible": true,
+        "target_met": true,
+        "objective": 11646596.974035554,
+        "vehicles": null,
+        "valid_bound_gap": 0.3690797020862407
+      },
+      {
+        "id": "H2",
+        "feasible": true,
+        "target_met": true,
+        "objective": 1650.7992395710683,
+        "vehicles": 19,
+        "valid_bound_gap": null
+      },
+      {
+        "id": "H3",
+        "feasible": true,
+        "target_met": true,
+        "objective": 100278.70370370394,
+        "vehicles": null,
+        "valid_bound_gap": null
+      },
+      {
+        "id": "H4",
+        "feasible": true,
+        "target_met": true,
+        "objective": 108855.0,
+        "vehicles": null,
+        "valid_bound_gap": null
+      },
+      {
+        "id": "H5",
+        "feasible": true,
+        "target_met": true,
+        "objective": 47.660149583799786,
+        "vehicles": null,
+        "valid_bound_gap": null
+      },
+      {
+        "id": "L1",
+        "feasible": true,
+        "target_met": true,
+        "objective": 13361927.449235704,
+        "vehicles": null,
+        "valid_bound_gap": 0.396500525601847
+      },
+      {
+        "id": "L2",
+        "feasible": true,
+        "target_met": true,
+        "objective": 1486.1194710808347,
+        "vehicles": 17,
+        "valid_bound_gap": null
+      }
+    ]
+  },
+  "negative_primary_cases": [
+    {
+      "id": "C104",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 10,
+      "new_vehicles": 10,
+      "old_objective": 824.7767082212931,
+      "new_objective": 825.9552968056321,
+      "old_target": true,
+      "new_target": true,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 0.14289789861800326
+    },
+    {
+      "id": "C204",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 3,
+      "new_vehicles": 3,
+      "old_objective": 590.5987456679451,
+      "new_objective": 593.933997157299,
+      "old_target": true,
+      "new_target": true,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 0.564723767840362
+    },
+    {
+      "id": "R101",
+      "split": "development",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 19,
+      "new_vehicles": 20,
+      "old_objective": 1656.0789172269815,
+      "new_objective": 1843.6163922315318,
+      "old_target": true,
+      "new_target": false,
+      "target_regression": true,
+      "weaker_bound": false
+    },
+    {
+      "id": "R104",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 10,
+      "new_vehicles": 10,
+      "old_objective": 990.8200786469665,
+      "new_objective": 997.0117357291709,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 0.6249022618374419
+    },
+    {
+      "id": "R108",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 10,
+      "new_vehicles": 10,
+      "old_objective": 977.9312463343196,
+      "new_objective": 982.581953953339,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 0.47556590879494093
+    },
+    {
+      "id": "R202",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 4,
+      "new_vehicles": 4,
+      "old_objective": 1092.4672458810485,
+      "new_objective": 1134.8453672294522,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 3.879120541891103
+    },
+    {
+      "id": "R204",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 3,
+      "new_vehicles": 3,
+      "old_objective": 754.2783435416035,
+      "new_objective": 782.6556654327252,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 3.7621817110484908
+    },
+    {
+      "id": "R205",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 3,
+      "new_vehicles": 3,
+      "old_objective": 1063.7497011507094,
+      "new_objective": 1079.2021188649344,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 1.452636620955982
+    },
+    {
+      "id": "R206",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 3,
+      "new_vehicles": 3,
+      "old_objective": 968.8620254171751,
+      "new_objective": 976.2241134655843,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 0.7598696052969157
+    },
+    {
+      "id": "R211",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 3,
+      "new_vehicles": 3,
+      "old_objective": 820.4886539925442,
+      "new_objective": 822.7160679594308,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 0.2714740729256758
+    },
+    {
+      "id": "RC106",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 12,
+      "new_vehicles": 12,
+      "old_objective": 1390.5571926078283,
+      "new_objective": 1485.6859379082991,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 6.8410523354359825
+    },
+    {
+      "id": "RC202",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 4,
+      "new_vehicles": 4,
+      "old_objective": 1166.1609888477406,
+      "new_objective": 1223.3324733017007,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 4.90253790005873
+    },
+    {
+      "id": "RC204",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 3,
+      "new_vehicles": 3,
+      "old_objective": 856.4821685930733,
+      "new_objective": 881.7075460565179,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 2.9452308977876145
+    },
+    {
+      "id": "RC207",
+      "split": "holdout",
+      "kind": "routing",
+      "old_feasible": true,
+      "new_feasible": true,
+      "old_vehicles": 3,
+      "new_vehicles": 3,
+      "old_objective": 1095.1473875181446,
+      "new_objective": 1105.7880732378933,
+      "old_target": false,
+      "new_target": false,
+      "target_regression": false,
+      "weaker_bound": false,
+      "objective_increase_pct": 0.9716213398328927
+    }
+  ],
+  "adoption_using_two_existing_outputs": {
+    "cases": 100,
+    "selected_candidate": 30,
+    "retained_baseline": 70,
+    "blocked": 0,
+    "target": 60,
+    "feasible": 100,
+    "worse_than_existing": 0,
+    "search_invocations": 0,
+    "scope": "Uses both existing ten-second outputs, not a ten-second standalone solver. Primary raw results are unchanged."
+  },
+  "software_checks": 100,
+  "synthetic_acceptance": 60,
+  "limitations": [
+    "This compares two native engine releases, not two fresh unconstrained LLM agents.",
+    "Time budgets share host dependencies and CPU; no speed ranking or enterprise ROI claim.",
+    "Multiple capacities generated from one official OR-Library symbolic source are explicitly distinct published instances.",
+    "100 related public benchmark instances are not 100 independent business scenarios.",
+    "The six-instance seed test has 18 paired runs, not 18 unique questions, and has a lower target count in the candidate.",
+    "All 44 facility costs tie; improved bound strength must not be described as cost saving.",
+    "Original H1/L1 bound gaps remain 36.91%/39.65%; no improvement on this unresolved weakness.",
+    "The adoption review uses both existing solver outputs and must not replace the raw same-budget score."
+  ]
+}

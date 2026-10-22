@@ -1,0 +1,35 @@
+{
+  "months": [
+    "a",
+    "b"
+  ],
+  "oils": [
+    "VEG",
+    "OIL3"
+  ],
+  "purchase_cost": [
+    [
+      2,
+      10
+    ],
+    [
+      10,
+      2
+    ]
+  ],
+  "hardness": [
+    5,
+    5
+  ],
+  "price": 20,
+  "init_store": 0,
+  "target_store_per_oil": 0,
+  "max_store_per_oil": 10,
+  "holding_cost": 1,
+  "veg_cap": 2,
+  "oil_cap": 2,
+  "min_hardness": 4,
+  "max_hardness": 6,
+  "min_consume": 1,
+  "max_ingredients": 2
+}

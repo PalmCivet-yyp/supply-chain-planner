@@ -1,0 +1,4612 @@
+[
+  {
+    "id": "cap101",
+    "kind": "facility",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 797508.7250000001,
+        "vehicles": null,
+        "gap_pct": 0.10798841245954251,
+        "certificate_valid": true,
+        "valid_bound": 652291.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8261847060000491,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.021932246000005762,
+          "best_valid_bound": 652291.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.18208901100110214
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 797508.7250000001,
+        "vehicles": null,
+        "gap_pct": 0.10798841245954251,
+        "certificate_valid": true,
+        "valid_bound": 796648.4374185227,
+        "replayed_lagrangian_bound": 796648.4375,
+        "process_returncode": 0,
+        "wall_seconds": 0.8296490839998114,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.03493134799987274,
+          "best_valid_bound": 796648.4374185227,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0010787187080334834
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap102",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 854704.2000000001,
+        "vehicles": null,
+        "gap_pct": 1.3620539342960386e-14,
+        "certificate_valid": true,
+        "valid_bound": 854704.1999145019,
+        "replayed_lagrangian_bound": 854704.2,
+        "process_returncode": 0,
+        "wall_seconds": 0.787602809999953,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.02995215200007806,
+          "best_valid_bound": 854704.1999145019,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0003250986414337e-10
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 854704.2000000001,
+        "vehicles": null,
+        "gap_pct": 1.3620539342960386e-14,
+        "certificate_valid": true,
+        "valid_bound": 652291.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.792675010000039,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.020155693000106112,
+          "best_valid_bound": 652291.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.23682234157735496
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap103",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 893782.1124999999,
+        "vehicles": null,
+        "gap_pct": 5.594204211832165e-08,
+        "certificate_valid": true,
+        "valid_bound": 652291.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.7970643319999908,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.024348629000087385,
+          "best_valid_bound": 652291.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.27018997037714804
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 893782.1124999999,
+        "vehicles": null,
+        "gap_pct": 5.594204211832165e-08,
+        "certificate_valid": true,
+        "valid_bound": 893782.1124106218,
+        "replayed_lagrangian_bound": 893782.1125,
+        "process_returncode": 0,
+        "wall_seconds": 0.835958939999955,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.03600551399995311,
+          "best_valid_bound": 893782.1124106218,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 9.999987123626046e-11
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap104",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 928941.75,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 928941.7499071058,
+        "replayed_lagrangian_bound": 928941.7500000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8140391020001516,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.029760066999870105,
+          "best_valid_bound": 928941.7499071058,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0000001413265339e-10
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 928941.75,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 652291.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8280522170000495,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.02184476000002178,
+          "best_valid_bound": 652291.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.2978126454107589
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap111",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 835290.4125,
+        "vehicles": null,
+        "gap_pct": 1.1094813356588193,
+        "certificate_valid": true,
+        "valid_bound": 706571.45,
+        "process_returncode": 0,
+        "wall_seconds": 2.518483169999854,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 1.7083536969998931,
+          "best_valid_bound": 706571.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.1541008499244567
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 835290.4125,
+        "vehicles": null,
+        "gap_pct": 1.1094813356588193,
+        "certificate_valid": true,
+        "valid_bound": 825829.5124113174,
+        "replayed_lagrangian_bound": 825829.5125,
+        "process_returncode": 0,
+        "wall_seconds": 2.594517601000007,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 1.7439547609999408,
+          "best_valid_bound": 825829.5124113174,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.011326479924947706
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap112",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 901377.2124999999,
+        "vehicles": null,
+        "gap_pct": -5.547068139123088e-08,
+        "certificate_valid": true,
+        "valid_bound": 900308.715441729,
+        "replayed_lagrangian_bound": 900308.7155390562,
+        "process_returncode": 0,
+        "wall_seconds": 7.787044221000087,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 6.935803965000105,
+          "best_valid_bound": 900308.715441729,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0011854050040908538
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 901377.2124999999,
+        "vehicles": null,
+        "gap_pct": -5.547068139123088e-08,
+        "certificate_valid": true,
+        "valid_bound": 761571.45,
+        "process_returncode": 0,
+        "wall_seconds": 7.711026766000032,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 6.89571376899994,
+          "best_valid_bound": 761571.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.15510239282868488
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap113",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 973356.4875,
+        "vehicles": null,
+        "gap_pct": 0.2873305341126414,
+        "certificate_valid": true,
+        "valid_bound": 816571.45,
+        "process_returncode": 0,
+        "wall_seconds": 3.9158489469998585,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 3.029102736000141,
+          "best_valid_bound": 816571.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.16107668620228935
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 973356.4875,
+        "vehicles": null,
+        "gap_pct": 0.2873305341126414,
+        "certificate_valid": true,
+        "valid_bound": 968496.3662115046,
+        "replayed_lagrangian_bound": 968496.3663193381,
+        "process_returncode": 0,
+        "wall_seconds": 4.223398363000115,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 3.393448776000014,
+          "best_valid_bound": 968496.3662115046,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.00499315651655888
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap114",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1063356.4875,
+        "vehicles": null,
+        "gap_pct": -4.702090547885414e-08,
+        "certificate_valid": true,
+        "valid_bound": 1060778.2462310318,
+        "replayed_lagrangian_bound": 1060778.2463506737,
+        "process_returncode": 0,
+        "wall_seconds": 4.452189166999915,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 3.4007194240000445,
+          "best_valid_bound": 1060778.2462310318,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0024246255129639293
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1063356.4875,
+        "vehicles": null,
+        "gap_pct": -4.702090547885414e-08,
+        "certificate_valid": true,
+        "valid_bound": 899071.45,
+        "process_returncode": 0,
+        "wall_seconds": 3.596531435000088,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 2.7243050459999267,
+          "best_valid_bound": 899071.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.1544966710893369
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap121",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 793439.5625,
+        "vehicles": null,
+        "gap_pct": -6.301676760994394e-08,
+        "certificate_valid": true,
+        "valid_bound": 646571.45,
+        "process_returncode": 0,
+        "wall_seconds": 0.7733157919999485,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.041150624000010794,
+          "best_valid_bound": 646571.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.1851030871680287
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 793439.5625,
+        "vehicles": null,
+        "gap_pct": -6.301676760994394e-08,
+        "certificate_valid": true,
+        "valid_bound": 793439.5624206561,
+        "replayed_lagrangian_bound": 793439.5625,
+        "process_returncode": 0,
+        "wall_seconds": 0.8052736619999905,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.06180586700020285,
+          "best_valid_bound": 793439.5624206561,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 9.999994212419155e-11
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap122",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 852524.6249999999,
+        "vehicles": null,
+        "gap_pct": -1.3655361782298642e-14,
+        "certificate_valid": true,
+        "valid_bound": 851856.1662671214,
+        "replayed_lagrangian_bound": 851856.1663536585,
+        "process_returncode": 0,
+        "wall_seconds": 0.833013026000117,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.07796585999994932,
+          "best_valid_bound": 851856.1662671214,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0007840931666679691
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 852524.6249999999,
+        "vehicles": null,
+        "gap_pct": -1.3655361782298642e-14,
+        "certificate_valid": true,
+        "valid_bound": 661571.45,
+        "process_returncode": 0,
+        "wall_seconds": 0.7436439919999884,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.05022657899985461,
+          "best_valid_bound": 661571.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.22398552417180928
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap123",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 895302.325,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 676571.45,
+        "process_returncode": 0,
+        "wall_seconds": 1.0154376350001257,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.17772205899996152,
+          "best_valid_bound": 676571.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.24430951299048623
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 895302.325,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 894363.4878117302,
+        "replayed_lagrangian_bound": 894363.48790215,
+        "process_returncode": 0,
+        "wall_seconds": 1.1720170099999905,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.20554950599989752,
+          "best_valid_bound": 894363.4878117302,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.001048625879833061
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap124",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 946051.325,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 942112.1842386394,
+        "replayed_lagrangian_bound": 942112.1843370609,
+        "process_returncode": 0,
+        "wall_seconds": 1.5299221899999793,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.6709214960001191,
+          "best_valid_bound": 942112.1842386394,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.004163770672125682
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 946051.325,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 699071.45,
+        "process_returncode": 0,
+        "wall_seconds": 1.4931743909999113,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.6205943590000516,
+          "best_valid_bound": 699071.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.2610639280062317
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap131",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 793439.5625,
+        "vehicles": null,
+        "gap_pct": 6.30167676893662e-08,
+        "certificate_valid": true,
+        "valid_bound": 624071.45,
+        "process_returncode": 0,
+        "wall_seconds": 0.8879505170000357,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.03883938099988882,
+          "best_valid_bound": 624071.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.21346063456471526
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 793439.5625,
+        "vehicles": null,
+        "gap_pct": 6.30167676893662e-08,
+        "certificate_valid": true,
+        "valid_bound": 793439.5624188437,
+        "replayed_lagrangian_bound": 793439.5625000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8255824110001413,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.06507357200007391,
+          "best_valid_bound": 793439.5624188437,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0228411575991409e-10
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap132",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 851495.3250000001,
+        "vehicles": null,
+        "gap_pct": 1.3671868583299013e-14,
+        "certificate_valid": true,
+        "valid_bound": 851495.3249148227,
+        "replayed_lagrangian_bound": 851495.3250000002,
+        "process_returncode": 0,
+        "wall_seconds": 0.8718510140001854,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.04231980300005489,
+          "best_valid_bound": 851495.3249148227,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0003255070736638e-10
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 851495.3250000001,
+        "vehicles": null,
+        "gap_pct": 1.3671868583299013e-14,
+        "certificate_valid": true,
+        "valid_bound": 624071.45,
+        "process_returncode": 0,
+        "wall_seconds": 0.8548245200001929,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.027049608000197622,
+          "best_valid_bound": 624071.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.26708763785637935
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap133",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 893076.7124999999,
+        "vehicles": null,
+        "gap_pct": 5.598621511538674e-08,
+        "certificate_valid": true,
+        "valid_bound": 624071.45,
+        "process_returncode": 0,
+        "wall_seconds": 0.9452982939999401,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.05203106499993737,
+          "best_valid_bound": 624071.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.30121182059150386
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 893076.7124999999,
+        "vehicles": null,
+        "gap_pct": 5.598621511538674e-08,
+        "certificate_valid": true,
+        "valid_bound": 893076.7124106922,
+        "replayed_lagrangian_bound": 893076.7125,
+        "process_returncode": 0,
+        "wall_seconds": 0.8441102410001804,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.0591239590000896,
+          "best_valid_bound": 893076.7124106922,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0000012323565025e-10
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap134",
+    "kind": "facility",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 928941.75,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 928941.7499071058,
+        "replayed_lagrangian_bound": 928941.7500000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.7697954739999204,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.03475754499982031,
+          "best_valid_bound": 928941.7499071058,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0000001413265339e-10
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 928941.75,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 624071.45,
+        "process_returncode": 0,
+        "wall_seconds": 0.8376641160000418,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.02262072700000317,
+          "best_valid_bound": 624071.45,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.32819097645250633
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap41",
+    "kind": "facility",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1040444.375,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1040444.3749999999,
+        "process_returncode": 0,
+        "wall_seconds": 1.4131414920000225,
+        "reported_status": "optimal",
+        "native_evidence": {
+          "seconds": 0.6165421289999813,
+          "best_valid_bound": 1040444.3749999999,
+          "bound_scope": "global full support",
+          "relative_gap": 0.0
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1040444.375,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1040444.3749999999,
+        "process_returncode": 0,
+        "wall_seconds": 1.4290996859999723,
+        "reported_status": "optimal",
+        "native_evidence": {
+          "seconds": 0.6019630710000001,
+          "best_valid_bound": 1040444.3749999999,
+          "bound_scope": "global full support",
+          "relative_gap": 0.0
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap42",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1098000.45,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1098000.45,
+        "process_returncode": 0,
+        "wall_seconds": 1.479513107999992,
+        "reported_status": "optimal",
+        "native_evidence": {
+          "seconds": 0.6704467609999938,
+          "best_valid_bound": 1098000.45,
+          "bound_scope": "global full support",
+          "relative_gap": 0.0
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1098000.45,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1098000.45,
+        "process_returncode": 0,
+        "wall_seconds": 1.395042932000024,
+        "reported_status": "optimal",
+        "native_evidence": {
+          "seconds": 0.6484596769998916,
+          "best_valid_bound": 1098000.45,
+          "bound_scope": "global full support",
+          "relative_gap": 0.0
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap43",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1153000.45,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1153000.45,
+        "process_returncode": 0,
+        "wall_seconds": 1.260911958999941,
+        "reported_status": "optimal",
+        "native_evidence": {
+          "seconds": 0.47934861699991416,
+          "best_valid_bound": 1153000.45,
+          "bound_scope": "global full support",
+          "relative_gap": 0.0
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1153000.45,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1153000.45,
+        "process_returncode": 0,
+        "wall_seconds": 1.2326363889999357,
+        "reported_status": "optimal",
+        "native_evidence": {
+          "seconds": 0.49781152400009887,
+          "best_valid_bound": 1153000.45,
+          "bound_scope": "global full support",
+          "relative_gap": 0.0
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap44",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1235500.45,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1232073.6641892176,
+        "replayed_lagrangian_bound": 1232073.6643773983,
+        "process_returncode": 0,
+        "wall_seconds": 1.4150110890000178,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.5952071369999885,
+          "best_valid_bound": 1232073.6641892176,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.002773601426678834
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1235500.45,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1112970.1875,
+        "process_returncode": 0,
+        "wall_seconds": 1.2689480940000522,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.554941326000062,
+          "best_valid_bound": 1112970.1875,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.09917459965312028
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap51",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1025208.2249999999,
+        "vehicles": null,
+        "gap_pct": -1.135528558863589e-14,
+        "certificate_valid": true,
+        "valid_bound": 925470.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.9146626700000979,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.15715784300004998,
+          "best_valid_bound": 925470.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.09728563921734032
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1025208.2249999999,
+        "vehicles": null,
+        "gap_pct": -1.135528558863589e-14,
+        "certificate_valid": true,
+        "valid_bound": 1024787.0282067716,
+        "replayed_lagrangian_bound": 1024787.028314179,
+        "process_returncode": 0,
+        "wall_seconds": 0.9721521909998501,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.17087726999989172,
+          "best_valid_bound": 1024787.0282067716,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.00041084024001893647
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap61",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 932615.75,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 932615.7499067384,
+        "replayed_lagrangian_bound": 932615.7499999999,
+        "process_returncode": 0,
+        "wall_seconds": 0.8224617000000762,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.02502911899978244,
+          "best_valid_bound": 932615.7499067384,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0000002132078251e-10
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 932615.75,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 860470.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.76227158100005,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.019562266999855638,
+          "best_valid_bound": 860470.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.07735829305906519
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap62",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 977799.4,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 875470.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.7898936629999298,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.023527386999830924,
+          "best_valid_bound": 875470.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.10465256217175006
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 977799.4,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 977799.3999022152,
+        "replayed_lagrangian_bound": 977799.4,
+        "process_returncode": 0,
+        "wall_seconds": 0.8827064350000455,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.032929796000189526,
+          "best_valid_bound": 977799.3999022152,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0000496604759759e-10
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap63",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1014062.0499999999,
+        "vehicles": null,
+        "gap_pct": -1.1480098464086572e-14,
+        "certificate_valid": true,
+        "valid_bound": 1012720.9770679034,
+        "replayed_lagrangian_bound": 1012720.9771694842,
+        "process_returncode": 0,
+        "wall_seconds": 0.9075858439998683,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.1033052590000807,
+          "best_valid_bound": 1012720.9770679034,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0013224762055700117
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1014062.0499999999,
+        "vehicles": null,
+        "gap_pct": -1.1480098464086572e-14,
+        "certificate_valid": true,
+        "valid_bound": 890470.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8358940570001323,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.0821107540000412,
+          "best_valid_bound": 890470.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.12187800785957804
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap64",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1045650.25,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 912970.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8260089539999171,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.11913369600006263,
+          "best_valid_bound": 912970.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.12688761132128068
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1045650.25,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1045650.2498939601,
+        "replayed_lagrangian_bound": 1045650.25,
+        "process_returncode": 0,
+        "wall_seconds": 0.8781783220001671,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.12952652099988882,
+          "best_valid_bound": 1045650.2498939601,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.014106189901957e-10
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap71",
+    "kind": "facility",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 932615.75,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 932615.7499042784,
+        "replayed_lagrangian_bound": 932615.7499999999,
+        "process_returncode": 0,
+        "wall_seconds": 0.8443757069999265,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.02249038600007225,
+          "best_valid_bound": 932615.7499042784,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0263773376079327e-10
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 932615.75,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 837970.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.847395416000154,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.017014316000086183,
+          "best_valid_bound": 837970.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.10148398469573336
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap72",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 977799.4,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 837970.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.799395990999983,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.020769529000062903,
+          "best_valid_bound": 837970.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.1430039868095643
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 977799.4,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 977799.3999015447,
+        "replayed_lagrangian_bound": 977799.4,
+        "process_returncode": 0,
+        "wall_seconds": 0.8831427479999547,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.02813506100005725,
+          "best_valid_bound": 977799.3999015447,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.0069074296024772e-10
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap73",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1012476.975,
+        "vehicles": null,
+        "gap_pct": 0.18161980195845157,
+        "certificate_valid": true,
+        "valid_bound": 1010641.4498989359,
+        "replayed_lagrangian_bound": 1010641.4500000002,
+        "process_returncode": 0,
+        "wall_seconds": 0.7730854449998787,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.0201738349999232,
+          "best_valid_bound": 1010641.4498989359,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0018129055241619084
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1012476.975,
+        "vehicles": null,
+        "gap_pct": 0.18161980195845157,
+        "certificate_valid": true,
+        "valid_bound": 837970.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8051405080000222,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.014546429000120042,
+          "best_valid_bound": 837970.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.1723563022260333
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap74",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1034976.975,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 837970.1875000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.7806474830001662,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.012440611999863904,
+          "best_valid_bound": 837970.1875000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.19034895679684077
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1034976.975,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1034976.9748965022,
+        "replayed_lagrangian_bound": 1034976.9750000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.7371989130001566,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.018304011999816794,
+          "best_valid_bound": 1034976.9748965022,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 1.000001741265965e-10
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap81",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 838499.2874999999,
+        "vehicles": null,
+        "gap_pct": -5.963035259683925e-08,
+        "certificate_valid": true,
+        "valid_bound": 837017.2297168096,
+        "replayed_lagrangian_bound": 837017.2298111375,
+        "process_returncode": 0,
+        "wall_seconds": 1.7075547980000465,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.9936100339998575,
+          "best_valid_bound": 837017.2297168096,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.001767512274946659
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 838499.2874999999,
+        "vehicles": null,
+        "gap_pct": -5.963035259683925e-08,
+        "certificate_valid": true,
+        "valid_bound": 734791.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 1.7422391369998422,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.9412214989999939,
+          "best_valid_bound": 734791.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.12368303592625264
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap82",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 910889.5625,
+        "vehicles": null,
+        "gap_pct": -5.4891392529992655e-08,
+        "certificate_valid": true,
+        "valid_bound": 789791.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 5.487553280999919,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 4.67962958000021,
+          "best_valid_bound": 789791.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.1329452191412061
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 910889.5625,
+        "vehicles": null,
+        "gap_pct": -5.4891392529992655e-08,
+        "certificate_valid": true,
+        "valid_bound": 910594.188925622,
+        "replayed_lagrangian_bound": 910594.1890291474,
+        "process_returncode": 0,
+        "wall_seconds": 5.441744868999876,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 4.639083593999885,
+          "best_valid_bound": 910594.188925622,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0003242693588093111
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap83",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 975889.5625,
+        "vehicles": null,
+        "gap_pct": -5.1235302077010196e-08,
+        "certificate_valid": true,
+        "valid_bound": 975567.0361438683,
+        "replayed_lagrangian_bound": 975567.0362517566,
+        "process_returncode": 0,
+        "wall_seconds": 6.529300500999852,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 5.762141756000119,
+          "best_valid_bound": 975567.0361438683,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0003304947286303754
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 975889.5625,
+        "vehicles": null,
+        "gap_pct": -5.1235302077010196e-08,
+        "certificate_valid": true,
+        "valid_bound": 844791.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 6.257583548000184,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 5.4809346050001295,
+          "best_valid_bound": 844791.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.13433734465215152
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap84",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1069369.525,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 927291.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 5.904311389000213,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 5.130670360000295,
+          "best_valid_bound": 927291.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.13286181406749906
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1069369.525,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 1067469.475158281,
+        "replayed_lagrangian_bound": 1067469.475279117,
+        "process_returncode": 0,
+        "wall_seconds": 5.704691404000187,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 4.911066254000161,
+          "best_valid_bound": 1067469.475158281,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0017767944543949682
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap91",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 797508.7250000001,
+        "vehicles": null,
+        "gap_pct": 0.10798828679811302,
+        "certificate_valid": true,
+        "valid_bound": 796648.4374203351,
+        "replayed_lagrangian_bound": 796648.4375000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8191122799998993,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.03480386599994745,
+          "best_valid_bound": 796648.4374203351,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0010787187057608183
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 797508.7250000001,
+        "vehicles": null,
+        "gap_pct": 0.10798828679811302,
+        "certificate_valid": true,
+        "valid_bound": 674791.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.8656080419996215,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.029769556999781344,
+          "best_valid_bound": 674791.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.1538761535179442
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap92",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 855733.5,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 689791.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 0.7847700930001338,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.04429669799992553,
+          "best_valid_bound": 689791.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.1939182584297563
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 855733.5,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 855065.0412668132,
+        "replayed_lagrangian_bound": 855065.0413536584,
+        "process_returncode": 0,
+        "wall_seconds": 0.8166649409999991,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.043814344000111305,
+          "best_valid_bound": 855065.0412668132,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.0007811529327609872
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap93",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 896617.5375,
+        "vehicles": null,
+        "gap_pct": -5.576513333169541e-08,
+        "certificate_valid": true,
+        "valid_bound": 894861.709203258,
+        "replayed_lagrangian_bound": 894861.709294306,
+        "process_returncode": 0,
+        "wall_seconds": 0.9807624170002782,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.193150254000102,
+          "best_valid_bound": 894861.709203258,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.001958280117559958
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 896617.5375,
+        "vehicles": null,
+        "gap_pct": -5.576513333169541e-08,
+        "certificate_valid": true,
+        "valid_bound": 704791.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 1.0532592590002423,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.20118578699975842,
+          "best_valid_bound": 704791.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.21394449637340465
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "cap94",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 946051.325,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 727291.1500000001,
+        "process_returncode": 0,
+        "wall_seconds": 1.2253178979999575,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.48338947199999893,
+          "best_valid_bound": 727291.1500000001,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.2312349966847728
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 946051.325,
+        "vehicles": null,
+        "gap_pct": 0.0,
+        "certificate_valid": true,
+        "valid_bound": 942237.3744615667,
+        "replayed_lagrangian_bound": 942237.3745605173,
+        "process_returncode": 0,
+        "wall_seconds": 1.2943037000000004,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 0.4316676799999186,
+          "best_valid_bound": 942237.3744615667,
+          "bound_scope": "global all-arc Lagrangian relaxation",
+          "relative_gap": 0.004031441463742349
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "capa_8000",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 19240822.448645774,
+        "vehicles": null,
+        "gap_pct": -1.8410163055595276e-09,
+        "certificate_valid": true,
+        "valid_bound": 12757167.89283,
+        "process_returncode": 0,
+        "wall_seconds": 10.53583257299988,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.635815576999903,
+          "best_valid_bound": 12757167.89283,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.33697387796809664
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 19240822.448645774,
+        "vehicles": null,
+        "gap_pct": -1.8410163055595276e-09,
+        "certificate_valid": true,
+        "valid_bound": 12757167.89283,
+        "process_returncode": 0,
+        "wall_seconds": 10.426844219000031,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.652341246000105,
+          "best_valid_bound": 12757167.89283,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.33697387796809664
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "capa_10000",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 18438046.54327619,
+        "vehicles": null,
+        "gap_pct": 1.4979314473122589e-09,
+        "certificate_valid": true,
+        "valid_bound": 11321464.89283,
+        "process_returncode": 0,
+        "wall_seconds": 10.583507516999816,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.823644207999678,
+          "best_valid_bound": 11321464.89283,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.3859726481188105
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 18438046.54327619,
+        "vehicles": null,
+        "gap_pct": 1.4979314473122589e-09,
+        "certificate_valid": true,
+        "valid_bound": 11321464.89283,
+        "process_returncode": 0,
+        "wall_seconds": 10.449184920999869,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.755533389999982,
+          "best_valid_bound": 11321464.89283,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.3859726481188105
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "capa_12000",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 17765201.94899,
+        "vehicles": null,
+        "gap_pct": -5.6303353488944e-11,
+        "certificate_valid": true,
+        "valid_bound": 9919102.89283,
+        "process_returncode": 0,
+        "wall_seconds": 10.42276006100019,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.65512225700013,
+          "best_valid_bound": 9919102.89283,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.4416554947525418
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 17765201.94899,
+        "vehicles": null,
+        "gap_pct": -5.6303353488944e-11,
+        "certificate_valid": true,
+        "valid_bound": 9919102.89283,
+        "process_returncode": 0,
+        "wall_seconds": 10.440556195000227,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.63743968200015,
+          "best_valid_bound": 9919102.89283,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.4416554947525418
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "capb_5000",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 13656379.577553982,
+        "vehicles": null,
+        "gap_pct": -3.266003474906851e-09,
+        "certificate_valid": true,
+        "valid_bound": 9229636.19256,
+        "process_returncode": 0,
+        "wall_seconds": 10.638320447999831,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.785684643999957,
+          "best_valid_bound": 9229636.19256,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.32415204629123695
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 13656379.577553982,
+        "vehicles": null,
+        "gap_pct": -3.266003474906851e-09,
+        "certificate_valid": true,
+        "valid_bound": 9229636.19256,
+        "process_returncode": 0,
+        "wall_seconds": 10.634260828000151,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.791098041999703,
+          "best_valid_bound": 9229636.19256,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.32415204629123695
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "capb_6000",
+    "kind": "facility",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 13361927.449235704,
+        "vehicles": null,
+        "gap_pct": 1.7640022819969213e-09,
+        "certificate_valid": true,
+        "valid_bound": 8063916.19256,
+        "process_returncode": 0,
+        "wall_seconds": 10.578002909000134,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.761480566000046,
+          "best_valid_bound": 8063916.19256,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.396500525601847
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 13361927.449235704,
+        "vehicles": null,
+        "gap_pct": 1.7640022819969213e-09,
+        "certificate_valid": true,
+        "valid_bound": 8063916.19256,
+        "process_returncode": 0,
+        "wall_seconds": 10.699579472000096,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.893367024000327,
+          "best_valid_bound": 8063916.19256,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.396500525601847
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "capc_5000",
+    "kind": "facility",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 11646596.974035554,
+        "vehicles": null,
+        "gap_pct": 3.0527518628739414e-10,
+        "certificate_valid": true,
+        "valid_bound": 7348074.4325399995,
+        "process_returncode": 0,
+        "wall_seconds": 10.576030943000205,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.640678204999858,
+          "best_valid_bound": 7348074.4325399995,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.3690797020862407
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 11646596.974035554,
+        "vehicles": null,
+        "gap_pct": 3.0527518628739414e-10,
+        "certificate_valid": true,
+        "valid_bound": 7348074.4325399995,
+        "process_returncode": 0,
+        "wall_seconds": 10.478471916000217,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.63950473099976,
+          "best_valid_bound": 7348074.4325399995,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.3690797020862407
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "capc_6500",
+    "kind": "facility",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 11518743.74359614,
+        "vehicles": null,
+        "gap_pct": -3.5061165772680056e-09,
+        "certificate_valid": true,
+        "valid_bound": 6066220.4325399995,
+        "process_returncode": 0,
+        "wall_seconds": 10.466305392000322,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.568525838999903,
+          "best_valid_bound": 6066220.4325399995,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.4733609352224263
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 11518743.74359614,
+        "vehicles": null,
+        "gap_pct": -3.5061165772680056e-09,
+        "certificate_valid": true,
+        "valid_bound": 6066220.4325399995,
+        "process_returncode": 0,
+        "wall_seconds": 4.237692867000078,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 3.3471032729999024,
+          "best_valid_bound": 6066220.4325399995,
+          "bound_scope": "global elementary lower bound",
+          "relative_gap": 0.4733609352224263
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428342,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594621905984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.186050368999986,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 7.339955391999865,
+          "total_seconds": 7.349652755000079
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428342,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594621905984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.13576973599993,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 6.614949979999892,
+          "total_seconds": 9.374486520000119
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C102",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428341,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594622043131,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.893105839999862,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.15636264800014,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.157568867000009
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428342,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594621905984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.248350889999983,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.517509909999717
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C103",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.0648821980841,
+        "vehicles": 10,
+        "gap_pct": 0.0005895947255206982,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.440264732999822,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.714271127999837
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.0648821980841,
+        "vehicles": 10,
+        "gap_pct": 0.0005895947255206982,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.603840499999933,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.850965216999612,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.8521895519998
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C104",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 825.9552968056321,
+        "vehicles": 10,
+        "gap_pct": 0.14249821838940266,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.742960163999669,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.873245040000256,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.874909505999767
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 824.7767082212931,
+        "vehicles": 10,
+        "gap_pct": -0.0003991099089275577,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.370031997000297,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.49022611700002
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C105",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428342,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594621905984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.30062326999996,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.52257642099994
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428343,
+        "vehicles": 10,
+        "gap_pct": -0.00037795946217688366,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.90688629000033,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.134915522000028,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.136295700000119
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C106",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428341,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594622043131,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.25079169899982,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.474147122999966,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.475402344000031
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428342,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594621905984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.284318547000112,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.540213110999957
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C107",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428342,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594621905984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.319888614999854,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.549511776000145
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428342,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594621905984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.998733884999638,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.18252187500002,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.18395764700017
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C108",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428342,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594621905984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.59897328399984,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.851309511000181,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.852641678000055
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 862.0408852911899,
+        "vehicles": 10,
+        "gap_pct": 3.9931581647875354,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.604710866000005,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.882326901999932
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C109",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428344,
+        "vehicles": 10,
+        "gap_pct": -0.00037795946216316893,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.336756010000045,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.626626966000003
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428343,
+        "vehicles": 10,
+        "gap_pct": -0.00037795946217688366,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.663748940999994,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.85961037099969,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.863338870999996
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C201",
+    "kind": "routing",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.5565566715015,
+        "vehicles": 3,
+        "gap_pct": -0.0005820759514514364,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.043520772000193,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.117864301999816,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.119112763999965
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.5565566715019,
+        "vehicles": 3,
+        "gap_pct": -0.000582075951393782,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.504299412999899,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.523978865000117
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C202",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.5565566715014,
+        "vehicles": 3,
+        "gap_pct": -0.0005820759514706547,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.677497841000331,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.777755426999647
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.5565566715014,
+        "vehicles": 3,
+        "gap_pct": -0.0005820759514706547,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.911751383000137,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.125018358000034,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.126180648999707
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C203",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.1734427806316,
+        "vehicles": 3,
+        "gap_pct": 0.0005823672770344202,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.919065886000226,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.154342395000185,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.155616972000189
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 600.2061024282012,
+        "vehicles": 3,
+        "gap_pct": 1.5285116680821549,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.905915132000246,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.095940333000271
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C204",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 590.5987456679451,
+        "vehicles": 3,
+        "gap_pct": -0.0002123826710025715,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.933663921000061,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.196887615999913
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 593.933997157299,
+        "vehicles": 3,
+        "gap_pct": 0.5645101857939375,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.05608954499985,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.213464891000058,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.21785236400001
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C205",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 588.8759626534238,
+        "vehicles": 3,
+        "gap_pct": -0.000685597503087752,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.907424229999833,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.140812093000022,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.14199255199992
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 588.8759626534242,
+        "vehicles": 3,
+        "gap_pct": -0.0006855975030298352,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.779249665999941,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.956981200999962
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C206",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 588.4928487625539,
+        "vehicles": 3,
+        "gap_pct": 0.0004840800275055388,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.292706140000064,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.423623874999976
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 588.4928487625539,
+        "vehicles": 3,
+        "gap_pct": 0.0004840800275055388,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.950434503999986,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.153905147999922,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.15512496600013
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C207",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 588.2863214262126,
+        "vehicles": 3,
+        "gap_pct": -0.0006252993910141257,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.014954443000079,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.281931408000219,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.283523845000218
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 681.7260132428838,
+        "vehicles": 3,
+        "gap_pct": 15.882645165289885,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.867612994999945,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.096963970999695
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C208",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 588.3238006573994,
+        "vehicles": 3,
+        "gap_pct": 0.0006460187311878461,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.514647199000137,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.744178478999856
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 588.3238006573991,
+        "vehicles": 3,
+        "gap_pct": 0.0006460187311491981,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.034223124000164,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.186536203999822,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.188149773000077
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1843.6163922315318,
+        "vehicles": 20,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.399299333999807,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.54102221500034,
+          "total_seconds": 9.549644562999674
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1656.0789172269815,
+        "vehicles": 19,
+        "gap_pct": 0.3197793328677943,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.398439695999969,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.529943957000341,
+          "total_seconds": 9.537619879999966
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": true,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R102",
+    "kind": "routing",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1487.6025684718336,
+        "vehicles": 17,
+        "gap_pct": 0.09976102009485786,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.292017991000193,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.524332948999927
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1486.119471080835,
+        "vehicles": 17,
+        "gap_pct": -3.559060943499581e-05,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.084596491999946,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.230025080999894,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.231739658000151
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R103",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1295.569752528292,
+        "vehicles": 13,
+        "gap_pct": 0.22354739984310618,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.266189901999951,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.505711539000004,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.507301897999696
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1318.2024360797805,
+        "vehicles": 13,
+        "gap_pct": 1.974381600997957,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.495232744000077,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.594667495000067
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R104",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 990.8200786469665,
+        "vehicles": 10,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 8.981746017000205,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.068947600999763
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 997.0117357291709,
+        "vehicles": 10,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.838583751999977,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.889619908999975,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.891502799999671
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R105",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1407.1367411476035,
+        "vehicles": 14,
+        "gap_pct": 2.1804170434898897,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.773527080999884,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.88935992200004,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.891057708000062
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1423.942286087997,
+        "vehicles": 14,
+        "gap_pct": 3.400765813043046,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.708313011999962,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.771993505999944
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R106",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1322.006637294653,
+        "vehicles": 12,
+        "gap_pct": 5.589054359292755,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.678771193999637,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.8288451509997685
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1259.9516319179886,
+        "vehicles": 12,
+        "gap_pct": 0.6327030436961282,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.6645947410002,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.874296569999842,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.875748317000216
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R107",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1083.7928463928204,
+        "vehicles": 11,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.680225679999694,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.868693535000148,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.870858289999887
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1099.2340790534956,
+        "vehicles": 11,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 9.125324926999838,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.238671247000184
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R108",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 977.9312463343196,
+        "vehicles": 10,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 9.746091332000105,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.955483739000101
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 982.581953953339,
+        "vehicles": 10,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.76102874199978,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.878685356000005,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.880267056999855
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R109",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1180.091178199069,
+        "vehicles": 12,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.811181421000128,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.890472431000035,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.891976275000161
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1225.457471555861,
+        "vehicles": 13,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.366891387000123,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.528580973999851
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R110",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1206.0059905975547,
+        "vehicles": 11,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.40981108799997,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.518054959999972
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1126.132130723074,
+        "vehicles": 11,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.943802590999894,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.896333050000067,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.899620450999919
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R111",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1055.626692641747,
+        "vehicles": 11,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.916726642999947,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.886692524999944,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.888309188000221
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1155.1831621993376,
+        "vehicles": 11,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 9.103569543000049,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.16474920499968
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R112",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 990.3448297479233,
+        "vehicles": 10,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.563365193000209,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.615179678999993
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 978.8154317364399,
+        "vehicles": 10,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.735601381000379,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.880626292000215,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.882383795999885
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R201",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1266.6745584034306,
+        "vehicles": 4,
+        "gap_pct": 1.1421990628512937,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.810952944999826,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.893491182000162,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.895080354000129
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1267.89119611369,
+        "vehicles": 4,
+        "gap_pct": 1.2393458892891211,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 13.036945469999864,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 12.263362053000037
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R202",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1092.4672458810485,
+        "vehicles": 4,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 14.831216925999797,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 14.071680887000184
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1134.8453672294522,
+        "vehicles": 4,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.904703489999974,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 10.101657663999958,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 10.10338406200026
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R203",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 963.5871925012989,
+        "vehicles": 3,
+        "gap_pct": 2.56383102728035,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.680551105999712,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.770507605000148,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.772366422000232
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 965.8292558435732,
+        "vehicles": 3,
+        "gap_pct": 2.8024753425836244,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.472866365999835,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.617570894999972
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R204",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 754.2783435416035,
+        "vehicles": 3,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 12.997267671999907,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 12.174152701000367
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 782.6556654327252,
+        "vehicles": 3,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.680246058000193,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.902856308999617,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.904682515999866
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R205",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1079.2021188649344,
+        "vehicles": 3,
+        "gap_pct": 8.524694434493574,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.699130437999884,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.894654569999602,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.89658570499978
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1063.7497011507094,
+        "vehicles": 3,
+        "gap_pct": 6.970797456905909,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 14.41604179299975,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 13.591958970000178
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R206",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 968.8620254171751,
+        "vehicles": 3,
+        "gap_pct": 6.921891254902679,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 14.288662736000333,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 13.481894466000085
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 976.2241134655843,
+        "vehicles": 3,
+        "gap_pct": 7.734358207957305,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.791807796000285,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 10.011737703000108,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 10.013292844999796
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R207",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 940.5518589101225,
+        "vehicles": 2,
+        "gap_pct": 5.607601409160295,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.438165301000026,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.627027065999755,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.628605830999732
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 869.5938701266329,
+        "vehicles": 3,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 15.502187485999912,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 14.609541639999861
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R208",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 745.3439670321237,
+        "vehicles": 2,
+        "gap_pct": 2.5486319903309846,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 13.693096580000201,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 12.838436989000002
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 739.4329970692934,
+        "vehicles": 2,
+        "gap_pct": 1.7353673632114317,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.320104067999637,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.405576698000004,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.407461323999996
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R209",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 941.9762298729219,
+        "vehicles": 3,
+        "gap_pct": 3.6095109631882063,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.961129448000065,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 10.247446951999791,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 10.249366957999882
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 973.664545481722,
+        "vehicles": 3,
+        "gap_pct": 7.094960785969693,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 15.362082537999868,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 14.541923535000024
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R210",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1030.1269103219486,
+        "vehicles": 3,
+        "gap_pct": 9.661465697430039,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 13.945951757999865,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 13.137093104000087
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 982.6150502317112,
+        "vehicles": 3,
+        "gap_pct": 4.60362266537266,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.937510814999769,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 10.170937916000184,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 10.172539155000322
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R211",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 822.7160679594308,
+        "vehicles": 3,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.921788926000318,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 10.106221129000005,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 10.107975499000077
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 820.4886539925442,
+        "vehicles": 3,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 12.836004602999765,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 12.078037384000254
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1713.834271510253,
+        "vehicles": 16,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.246789849999914,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.506633117000092
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1636.617883244375,
+        "vehicles": 15,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.712244653000198,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.873989553000229,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.875473264999982
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC102",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1509.7010466870827,
+        "vehicles": 13,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.649068497000371,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.85323315100004,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.854778291999992
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1542.0646933391427,
+        "vehicles": 13,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 8.68819989099984,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.870710528000018
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC103",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1315.5824207863666,
+        "vehicles": 12,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.31496657300022,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.507691263999732
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1336.8880728215663,
+        "vehicles": 11,
+        "gap_pct": 5.961786586156937,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.690974857000128,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.857829924999805,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.859414698999899
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC104",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1157.5855176020802,
+        "vehicles": 10,
+        "gap_pct": 1.9467993801810888,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.673002687999997,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.892834122000295,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.894265918000201
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1161.3112416133201,
+        "vehicles": 10,
+        "gap_pct": 2.2749182383943456,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.952766482000243,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.15800426199985
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC105",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1591.6451637287307,
+        "vehicles": 14,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 8.634701991000384,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.8951995080001325
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1544.5920028196424,
+        "vehicles": 14,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.718622782999773,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.873848533,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.875238813999658
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC106",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1485.6859379082991,
+        "vehicles": 12,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.69739542599973,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.89506583100001,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.896610447000057
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1390.5571926078283,
+        "vehicles": 12,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 8.850659233999977,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.056321503000163
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC107",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1333.065393963157,
+        "vehicles": 11,
+        "gap_pct": 8.337022459784556,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.916858204000164,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 8.10607285900005
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1299.2397177983917,
+        "vehicles": 11,
+        "gap_pct": 5.5880402605805575,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.675592508000136,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.879141307000282,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.880878440000288
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC108",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1156.6955208436223,
+        "vehicles": 10,
+        "gap_pct": 1.4805426158184911,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.652422801999819,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.887280078000003,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.888664165000137
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1161.3764165203725,
+        "vehicles": 11,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.251922178999848,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 9.510816513000009
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC201",
+    "kind": "routing",
+    "split": "development",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1543.0391876287438,
+        "vehicles": 4,
+        "gap_pct": 9.673418029819588,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 11.903198365000208,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 11.126860258000306
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1457.474098434844,
+        "vehicles": 4,
+        "gap_pct": 3.591773525157011,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.673325982999813,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.90485631799993,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.906686148000063
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC202",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1223.3324733017007,
+        "vehicles": 4,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.692587767000077,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.887878790999821,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.889438699000038
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1166.1609888477406,
+        "vehicles": 4,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 14.963591215000179,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 14.207597238999824
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC203",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1133.4575637303253,
+        "vehicles": 3,
+        "gap_pct": 7.987420564616283,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 14.467792482000277,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 13.623291620000145
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1118.4291740612432,
+        "vehicles": 3,
+        "gap_pct": 6.555627185194958,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.978863363000073,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 10.13790247399993,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 10.139951945999655
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC204",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 881.7075460565179,
+        "vehicles": 3,
+        "gap_pct": 10.42601333273024,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 11.023269535000054,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 10.132182805999946,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 10.134030725999764
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 856.4821685930733,
+        "vehicles": 3,
+        "gap_pct": 7.26675958633786,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 12.94088379599998,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 12.134660263000114
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC205",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1356.2948400892778,
+        "vehicles": 4,
+        "gap_pct": 4.519311069184892,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 18.756139878999875,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 17.93524092000007
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1345.9075726102878,
+        "vehicles": 4,
+        "gap_pct": 3.7188434948011984,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.643579563999992,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.887837935000334,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.889451295000072
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC206",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1161.705989275066,
+        "vehicles": 3,
+        "gap_pct": 1.3422071738315737,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.43303069700005,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.531998483999814,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.533726243000274
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1168.4819466772783,
+        "vehicles": 3,
+        "gap_pct": 1.9333123976968356,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 12.634641634000218,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 11.836697574000027
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC207",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1095.1473875181446,
+        "vehicles": 3,
+        "gap_pct": 3.204797436544138,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 14.252209806000337,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 13.441854147999948
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1105.7880732378933,
+        "vehicles": 3,
+        "gap_pct": 4.207557272168911,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.8465899480002,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.934048563000033,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.936282932000267
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC208",
+    "kind": "routing",
+    "split": "holdout",
+    "seed": 17,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 852.2469863600099,
+        "vehicles": 3,
+        "gap_pct": 2.9109795879935705,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.896201554000072,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 10.006151317999866,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 10.00792083999977
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 863.463926583731,
+        "vehicles": 3,
+        "gap_pct": 4.265453496236265,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 14.264460911000242,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 13.57413894199999
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  }
+]

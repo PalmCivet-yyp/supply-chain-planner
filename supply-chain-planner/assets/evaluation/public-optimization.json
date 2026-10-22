@@ -1,0 +1,1627 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "cap101",
+      "kind": "facility",
+      "split": "development",
+      "input": "normalized/cap101.json",
+      "input_sha256": "2cdcc22e3324009ee033e25ebb17cee9db57752b6b8eac56bff8c415b6a6e4f1",
+      "raw_file": "cap101.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap101.txt",
+      "raw_sha256": "7f1d0e32808b8c1bd9e3f49ee42dd758abb5a157da63ed52182f22bd14919ebe",
+      "reference": {
+        "objective": 796648.437,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap102",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap102.json",
+      "input_sha256": "30028580d159f98e59f36de245b7484a1600eea6ad14caf16c4dc8906d9c8ca2",
+      "raw_file": "cap102.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap102.txt",
+      "raw_sha256": "52725adf3d065fa7e6f365817c9ba5d9cec1261f93403b30fd15e00dd2cb8b40",
+      "reference": {
+        "objective": 854704.2,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap103",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap103.json",
+      "input_sha256": "3ac5254c5d5d61e4d3f556a649d51e4b44013b1a3c1657c4264a8b09e9d1a3f8",
+      "raw_file": "cap103.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap103.txt",
+      "raw_sha256": "c22544480223e067fad39960171796d681e44b5e20041c4280779b9d57b65198",
+      "reference": {
+        "objective": 893782.112,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap104",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap104.json",
+      "input_sha256": "eb555af1e8a872abb26ca54d613644dd2deb7402b44de055fbda8f70b5cfd38c",
+      "raw_file": "cap104.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap104.txt",
+      "raw_sha256": "cc4c0ab975191650dc12d85d7c93b6cc649ec5a448a29218fa39953451e16833",
+      "reference": {
+        "objective": 928941.75,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap111",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap111.json",
+      "input_sha256": "54086089431dc63a867638a17b5b962869af1746b838cca238ec46bea05f7c35",
+      "raw_file": "cap111.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap111.txt",
+      "raw_sha256": "16b09017bb73164a5490fe9cd71a36da9269c702e8559b542e23a84d4e25774a",
+      "reference": {
+        "objective": 826124.713,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap112",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap112.json",
+      "input_sha256": "f241fc11633ecfbee294ea0c0df0797bbd949f5aadf2400f60b23baa6b683923",
+      "raw_file": "cap112.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap112.txt",
+      "raw_sha256": "1c21ffe08e88c58266be120df42a62a7be00e68f00bce88fbe304a879d7681df",
+      "reference": {
+        "objective": 901377.213,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap113",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap113.json",
+      "input_sha256": "9e9863b5ef9b619f85c5cf148e4e55a61e42a5dc5b5be62ce24b624ded32c2c3",
+      "raw_file": "cap113.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap113.txt",
+      "raw_sha256": "8f38e1288562cd1334f2f4ea4d50720b5212a64aee2503c1a5a8046d27a31fc0",
+      "reference": {
+        "objective": 970567.75,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap114",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap114.json",
+      "input_sha256": "7c71eadbb1cc0923d307bd4f040fedea7779e2ba9cedae60c26dd6dcab882179",
+      "raw_file": "cap114.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap114.txt",
+      "raw_sha256": "da4e7d25b11594e1621406e3a1ec8d2dce402d14f576ccaa88b42409afee221b",
+      "reference": {
+        "objective": 1063356.488,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap121",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap121.json",
+      "input_sha256": "f68fbab669ca0d1f0b55ff73b3069dd712a6be628dbdf86986068d26d90d2a3b",
+      "raw_file": "cap121.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap121.txt",
+      "raw_sha256": "9fae6b8dc3ec29b75632615fda44ae97454f5bc2fb764b1a32cad86c80e78ff9",
+      "reference": {
+        "objective": 793439.563,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap122",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap122.json",
+      "input_sha256": "c1fc8dfb69c23a9bd9e1ec1a06508b616fd4e40309136b6bea1c9070126f2c37",
+      "raw_file": "cap122.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap122.txt",
+      "raw_sha256": "f9ea702cec5d5d15135f897357ce660bb7e6d59c46ca83d6de7fc66c25f889a3",
+      "reference": {
+        "objective": 852524.625,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap123",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap123.json",
+      "input_sha256": "ea0f6dc63242d65eabc7f79a6e0c0113528c9fb2cdf5fdd460a199e34e1df926",
+      "raw_file": "cap123.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap123.txt",
+      "raw_sha256": "15fd1730362c020811f7b27001af4280750f1e358238d619755cfc8c9171a76c",
+      "reference": {
+        "objective": 895302.325,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap124",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap124.json",
+      "input_sha256": "0244c18dba9a1c1da95770fa73155d7ccd7f225abaa35cf26ac7f5ebecdce3fc",
+      "raw_file": "cap124.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap124.txt",
+      "raw_sha256": "5b7bd219ba1ba9ead7f50e6fe2d88958eccd56c648de8b8da6fd968f4efa22d3",
+      "reference": {
+        "objective": 946051.325,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap131",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap131.json",
+      "input_sha256": "58bbb60cd29dd07e354a9d7d8903a7a0ef2d5690101a586914a9f1f0a70ea8a4",
+      "raw_file": "cap131.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap131.txt",
+      "raw_sha256": "3ea70c64d029f21a2065b588c4ffa7b0d60cab6ee82fd7775360e0f7e007b36a",
+      "reference": {
+        "objective": 793439.562,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap132",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap132.json",
+      "input_sha256": "72b3b849fb797ff6e1971c3cda4d07815623e0e9ae7868f1667d2593cab811a1",
+      "raw_file": "cap132.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap132.txt",
+      "raw_sha256": "f9826bdee15ab1b0594170a9fafbcee7911e8dcf61e441886883fab77a4c1886",
+      "reference": {
+        "objective": 851495.325,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap133",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap133.json",
+      "input_sha256": "7069b85a9f0c76db53c64d865a67e1bd80c7a231c2760ab46a3a6eb8118536bc",
+      "raw_file": "cap133.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap133.txt",
+      "raw_sha256": "c200ca2e51cd58b3b3fc5a43c584aa3c4c5b6ddee91fd90983c998ebdb90f402",
+      "reference": {
+        "objective": 893076.712,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap134",
+      "kind": "facility",
+      "split": "development",
+      "input": "normalized/cap134.json",
+      "input_sha256": "3308cc30803cc9956afc2db41cd09d68f43a91a4eb886518462ed60aa8a641c0",
+      "raw_file": "cap134.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap134.txt",
+      "raw_sha256": "664737506cac1ac7c641e7daf618602e890a53d04cfde31389c98fff38112d7b",
+      "reference": {
+        "objective": 928941.75,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap41",
+      "kind": "facility",
+      "split": "development",
+      "input": "normalized/cap41.json",
+      "input_sha256": "4c4e82b54f264be7e30171fcc2605882367bf37f6fb29dcef350270c57e94209",
+      "raw_file": "cap41.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap41.txt",
+      "raw_sha256": "31fa9f6ad3c684c66392f0ad5dfa3dcd0262a404ea02a79238f9a1200071358e",
+      "reference": {
+        "objective": 1040444.375,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap42",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap42.json",
+      "input_sha256": "f71708cad0fb3a9857ae6c79b28fbf34afbdce0dd92262d00731ee560ec7ade3",
+      "raw_file": "cap42.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap42.txt",
+      "raw_sha256": "fa065519070061e3eb897b5b91e22e053cc6a15e76297906294a56d90cfba27e",
+      "reference": {
+        "objective": 1098000.45,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap43",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap43.json",
+      "input_sha256": "5def8ed14563b63da56f4db254e959966e6512634fca609342d2e960df83339b",
+      "raw_file": "cap43.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap43.txt",
+      "raw_sha256": "a19afbd39576615f9ecc69f1a4667c80ddb77878c09a656db9500e39763a8e46",
+      "reference": {
+        "objective": 1153000.45,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap44",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap44.json",
+      "input_sha256": "eb69fe68d6249fc51279068ae59f9e957b7d1ccfc5427b26f22be9273e01991b",
+      "raw_file": "cap44.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap44.txt",
+      "raw_sha256": "d0ee030dbdc08e3d5f57cfc3337c546d85635b4ea9e14507bab91590696c3279",
+      "reference": {
+        "objective": 1235500.45,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap51",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap51.json",
+      "input_sha256": "c31d841686d49357a2c3226041feeaf915ef5a8f5482e305784101c5a9aff488",
+      "raw_file": "cap51.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap51.txt",
+      "raw_sha256": "519deaa93fa8000e73a5d0f06149ef157b5b6a96d2711690178693f2547735ea",
+      "reference": {
+        "objective": 1025208.225,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap61",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap61.json",
+      "input_sha256": "5ae717affd6f5c5d2d7591e4a845c6e5c0e9f7043c0b6126d7eeeb3dac37b286",
+      "raw_file": "cap61.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap61.txt",
+      "raw_sha256": "25242994e36e377b16fb9f943bb201641ee03682e84842764db6ab66d931214c",
+      "reference": {
+        "objective": 932615.75,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap62",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap62.json",
+      "input_sha256": "6326762cdd402ff8031366ec120a65baf6d0d4630f7388ebd6115505aa638676",
+      "raw_file": "cap62.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap62.txt",
+      "raw_sha256": "73d2f244040e44068da5a8b4d2fbbe2fbdd7d672a73dd182439f2fcfbc8ff39f",
+      "reference": {
+        "objective": 977799.4,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap63",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap63.json",
+      "input_sha256": "46bfe0fbf3f95ffbdb77c1e2bac00b9b3acee805d4e027c352d24f8aa2c41668",
+      "raw_file": "cap63.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap63.txt",
+      "raw_sha256": "6692ce849999847180ab50813cf6b7d2241fc4ab39d480da86b26845032ff1dc",
+      "reference": {
+        "objective": 1014062.05,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap64",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap64.json",
+      "input_sha256": "1e21f2202ff05cf82daf9a64893c64d3c9f2ccf7d04e604f40eb658c1aa7e3dd",
+      "raw_file": "cap64.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap64.txt",
+      "raw_sha256": "b2fa37305a456768560c5706cca36d84eaff86d16dc7bc9d1afb96d55fb4110d",
+      "reference": {
+        "objective": 1045650.25,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap71",
+      "kind": "facility",
+      "split": "development",
+      "input": "normalized/cap71.json",
+      "input_sha256": "b270510d533af9a2161fc69f5d4376fae391a9e501adedffd1eb2a2cc42174c9",
+      "raw_file": "cap71.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap71.txt",
+      "raw_sha256": "dda7a533a674bd5c82766f58aa3ccb995f9cf7f776210f9aa1a7a49406ded8dc",
+      "reference": {
+        "objective": 932615.75,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap72",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap72.json",
+      "input_sha256": "0005cdfba207fc44600ad0d4f084c8cf3eb7719d81d45afa64aa9a94fa7e731c",
+      "raw_file": "cap72.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap72.txt",
+      "raw_sha256": "fbbc19aef762f3db1d1ba79500fee3268b36e4d482d6062a81153787b58174e1",
+      "reference": {
+        "objective": 977799.4,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap73",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap73.json",
+      "input_sha256": "baac193802fcbb05bc3a1233b75631f149a18fb592da68977ca8199a0388615f",
+      "raw_file": "cap73.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap73.txt",
+      "raw_sha256": "36ed79748e049e01fe7e2f254aeb62ef64ebef5090caf770083242089352c703",
+      "reference": {
+        "objective": 1010641.45,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap74",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap74.json",
+      "input_sha256": "af869f45464e54015936a8e61a7643fb5d89fdc261b7fc6db91454847281500c",
+      "raw_file": "cap74.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap74.txt",
+      "raw_sha256": "a740928ead01307256663517055486660d8303b6c61b1a0b2b1e9f2b2fc3af06",
+      "reference": {
+        "objective": 1034976.975,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap81",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap81.json",
+      "input_sha256": "0d5edfc0f0b8d3f45017f300816e47c7308a3416c0a7b122d32d39f866664a9b",
+      "raw_file": "cap81.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap81.txt",
+      "raw_sha256": "ebee3fd87144278f5559e80a87f1ab057147059f6b7f6b13e3691a2e73d03c70",
+      "reference": {
+        "objective": 838499.288,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap82",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap82.json",
+      "input_sha256": "83162dfbf764155f09a5b732e90aa07f3a3d541169ce4afb612ae3224d89639c",
+      "raw_file": "cap82.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap82.txt",
+      "raw_sha256": "b135daae3b9ae598a93fac8b17f77050b903df05b0e3e5d7e516cc8a04bf4bf8",
+      "reference": {
+        "objective": 910889.563,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap83",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap83.json",
+      "input_sha256": "df1daede56e1c6cb941539796e1a19d768d9053951a9ad101062fba09e58c28f",
+      "raw_file": "cap83.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap83.txt",
+      "raw_sha256": "4a83e58e6c934103e0b6883a06f223a3181bc774e591760317f4c71cae3e0f93",
+      "reference": {
+        "objective": 975889.563,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap84",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap84.json",
+      "input_sha256": "8bbff44442d1b096e9fe5604fa872cf9aecc415fd633b49a94e2acd14633fa3b",
+      "raw_file": "cap84.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap84.txt",
+      "raw_sha256": "09ffb7e2a6ef05c7be858a35762711c262175ba45acf22bbaa7d0cf38b42aeaf",
+      "reference": {
+        "objective": 1069369.525,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap91",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap91.json",
+      "input_sha256": "d0350b206411405dbad554a0c218e2d0008212dbf43c219d42a7c15d1d139014",
+      "raw_file": "cap91.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap91.txt",
+      "raw_sha256": "720045eef844a6515670deebd5e6ab0462294a204ea90c51bc536572989f51f6",
+      "reference": {
+        "objective": 796648.438,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap92",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap92.json",
+      "input_sha256": "7428b8a0f8c7ceeb519478cb54e7a9c5db680b218d21c76664817928d6ac18df",
+      "raw_file": "cap92.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap92.txt",
+      "raw_sha256": "7f9b62ff74b550e1ab15f3801119c3bb824203a419efa02b399132c83ea3011d",
+      "reference": {
+        "objective": 855733.5,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap93",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap93.json",
+      "input_sha256": "622b443b6584ccd6b75acff2cd32fb2376ba4ad7630e23dedf55d6795fc1f3cf",
+      "raw_file": "cap93.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap93.txt",
+      "raw_sha256": "eb01cddb3746533bff4a85343a72247c84ead4f21575dc6e7569829f58efd771",
+      "reference": {
+        "objective": 896617.538,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "cap94",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/cap94.json",
+      "input_sha256": "aa9c2be0b60c4543c7a3f417b9170c29363476828d875d829383d311f79ac9b7",
+      "raw_file": "cap94.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/cap94.txt",
+      "raw_sha256": "ed4e216a14997e452f701f841b741efc573d3911ab492146cf7fb62f0e3443d4",
+      "reference": {
+        "objective": 946051.325,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt"
+      }
+    },
+    {
+      "id": "capa_8000",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/capa_8000.json",
+      "input_sha256": "7bcd3cee78f33ca31c342514726c0abc6cee9a0ea8301f6bb3eddc18e13bd886",
+      "raw_file": "capa.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capa.txt",
+      "raw_sha256": "99df07aec953ac1e1d5e63578a0600aa3b899606a6a19fc1dfcf1a24739783f8",
+      "reference": {
+        "objective": 19240822.449,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt",
+        "capacity_variant": 8000
+      }
+    },
+    {
+      "id": "capa_10000",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/capa_10000.json",
+      "input_sha256": "dbdcb879bc55d790d3bf2ac552e144ed6a07c8263b960d10216c5fe857f76bd6",
+      "raw_file": "capa.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capa.txt",
+      "raw_sha256": "99df07aec953ac1e1d5e63578a0600aa3b899606a6a19fc1dfcf1a24739783f8",
+      "reference": {
+        "objective": 18438046.543,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt",
+        "capacity_variant": 10000
+      }
+    },
+    {
+      "id": "capa_12000",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/capa_12000.json",
+      "input_sha256": "6160fa16a9cc231bf3d50a09561ab0e35953ae370bbbb691002661a57ef861e8",
+      "raw_file": "capa.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capa.txt",
+      "raw_sha256": "99df07aec953ac1e1d5e63578a0600aa3b899606a6a19fc1dfcf1a24739783f8",
+      "reference": {
+        "objective": 17765201.949,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt",
+        "capacity_variant": 12000
+      }
+    },
+    {
+      "id": "capb_5000",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/capb_5000.json",
+      "input_sha256": "5e343e2b7fc7509c0ad57c2144f0b136f8aa785e71ebeab990156f39577b4b97",
+      "raw_file": "capb.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capb.txt",
+      "raw_sha256": "1f35015e05b629877ae805f737c575e50ece0c71d4b818c7b63c0687f14f7728",
+      "reference": {
+        "objective": 13656379.578,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt",
+        "capacity_variant": 5000
+      }
+    },
+    {
+      "id": "capb_6000",
+      "kind": "facility",
+      "split": "development",
+      "input": "normalized/capb_6000.json",
+      "input_sha256": "13231133698fcbc3679c060bbad9bedeaf6d4e6c4b788f596a0dff05fa6a045c",
+      "raw_file": "capb.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capb.txt",
+      "raw_sha256": "1f35015e05b629877ae805f737c575e50ece0c71d4b818c7b63c0687f14f7728",
+      "reference": {
+        "objective": 13361927.449,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt",
+        "capacity_variant": 6000
+      }
+    },
+    {
+      "id": "capc_5000",
+      "kind": "facility",
+      "split": "development",
+      "input": "normalized/capc_5000.json",
+      "input_sha256": "a1ef609871cb2c154a85aeab0af8a07cdfb3e53abd9e9f395d04293916b17c32",
+      "raw_file": "capc.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capc.txt",
+      "raw_sha256": "0c6e58103427b45c23829ab1a5b9fa92d01a3bfe0bac29085e3246ff23753011",
+      "reference": {
+        "objective": 11646596.974,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt",
+        "capacity_variant": 5000
+      }
+    },
+    {
+      "id": "capc_6500",
+      "kind": "facility",
+      "split": "holdout",
+      "input": "normalized/capc_6500.json",
+      "input_sha256": "14557420541046d67be6f84c244541890b0a3443a51add65fab28295572c849e",
+      "raw_file": "capc.txt",
+      "raw_url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capc.txt",
+      "raw_sha256": "0c6e58103427b45c23829ab1a5b9fa92d01a3bfe0bac29085e3246ff23753011",
+      "reference": {
+        "objective": 11518743.744,
+        "type": "published_optimum",
+        "source": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/capopt.txt",
+        "capacity_variant": 6500
+      }
+    },
+    {
+      "id": "C101",
+      "kind": "routing",
+      "split": "development",
+      "input": "normalized/C101.json",
+      "input_sha256": "e112a65a1dc789a6427c31ac256d1250b9a1220c5770f088de2ef24a9324d5e8",
+      "raw_file": "C101.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C101.txt",
+      "raw_sha256": "a6da75152d182d60ecd2c6f854296f5be452f92282d096adebcf5d99a7f16516",
+      "reference": {
+        "vehicles": 10,
+        "objective": 828.94,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C102",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C102.json",
+      "input_sha256": "2e5859eb6f568c86ac2112af91dab6bd5d86267b11fdd10930e548fdd3a05ab9",
+      "raw_file": "C102.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C102.txt",
+      "raw_sha256": "f89a0e2a760cc7448a4ca72b88e5b29b94d64b5548f3320f42a6230025ead653",
+      "reference": {
+        "vehicles": 10,
+        "objective": 828.94,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C103",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C103.json",
+      "input_sha256": "401b9e6b7f521e1325de03d5364d77f567dcd4b3152839acf31b04eb38c0dc75",
+      "raw_file": "C103.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C103.txt",
+      "raw_sha256": "a55cabf15e0da9d65696a5fb45c9852889479893f76f772a428ca15d1b415a51",
+      "reference": {
+        "vehicles": 10,
+        "objective": 828.06,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C104",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C104.json",
+      "input_sha256": "98fab68b879972b9ff36a24f5199ad27795be467824e9931b7425faa25d68090",
+      "raw_file": "C104.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C104.txt",
+      "raw_sha256": "fe333e81625ee5a75bb2ce98c2c9f356d07289237865b62a23ba2f32f0de5ee2",
+      "reference": {
+        "vehicles": 10,
+        "objective": 824.78,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C105",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C105.json",
+      "input_sha256": "e7954fbbcfaa0e952f6eea0520dc45af9a90a391d2452d3114a4b6c37efc86ff",
+      "raw_file": "C105.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C105.txt",
+      "raw_sha256": "9a877a3a6fb922e7ad9297cc0308bc8a5652cb1495a0228ee6b81b2d938aa29f",
+      "reference": {
+        "vehicles": 10,
+        "objective": 828.94,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C106",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C106.json",
+      "input_sha256": "c0c0e698b7a7af1eb8fa3d0e9f59cb2bfc28cfa540929caa90674cbe0c4e12b7",
+      "raw_file": "C106.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C106.txt",
+      "raw_sha256": "ec9b419bed53e9c607cce76e8c6bc59feb6e4d17646905601f008a4141ec7b40",
+      "reference": {
+        "vehicles": 10,
+        "objective": 828.94,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C107",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C107.json",
+      "input_sha256": "59ab89d150d28500e819c1e596792327557169799c1cab99574d82ec3e650028",
+      "raw_file": "C107.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C107.txt",
+      "raw_sha256": "cb3cdc10d812fa17370eb52cb753b6b0574426dc6fabeb8b9076ed750ddf05ca",
+      "reference": {
+        "vehicles": 10,
+        "objective": 828.94,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C108",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C108.json",
+      "input_sha256": "56f6447e548c53e4ceed6bb11dc319642b559a74132bcb4d3525a85326c25c47",
+      "raw_file": "C108.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C108.txt",
+      "raw_sha256": "b8c7e48f292b66b283d8e71511e3a4eccaa4c4bc66b9313c399e73b0226f5953",
+      "reference": {
+        "vehicles": 10,
+        "objective": 828.94,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C109",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C109.json",
+      "input_sha256": "d44c653c24e2e512b0423d02afddd221ea4e223c9237333971e8989aee256ed4",
+      "raw_file": "C109.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C109.txt",
+      "raw_sha256": "72d8489e14bf1bb18456f0b21b01110506cbcc2354719dae8481b480150f142a",
+      "reference": {
+        "vehicles": 10,
+        "objective": 828.94,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C201",
+      "kind": "routing",
+      "split": "development",
+      "input": "normalized/C201.json",
+      "input_sha256": "00bc52cc42970539205001553583d6c35071d88b1253ebea28bedffbe986f066",
+      "raw_file": "C201.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C201.txt",
+      "raw_sha256": "d8d9834087ae2326fa23a8510533060233dc9fb481873be60956eb26a880ad63",
+      "reference": {
+        "vehicles": 3,
+        "objective": 591.56,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C202",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C202.json",
+      "input_sha256": "f60f4d27893333d8521e351f1991b2c2d6298da134b9e20f126ca8ae8acc1cf8",
+      "raw_file": "C202.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C202.txt",
+      "raw_sha256": "dfc8ecad79f6c7ffb096cd36994143569f0babe284d5ad194683271d81063772",
+      "reference": {
+        "vehicles": 3,
+        "objective": 591.56,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C203",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C203.json",
+      "input_sha256": "61e96b6dc609bad80ba598efde4744829f3d57f9c8e63c1944056e72a307dea5",
+      "raw_file": "C203.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C203.txt",
+      "raw_sha256": "2b79eea2962a848cb29f6153d4fb4ae725d35507686d937da6643b33fcd85062",
+      "reference": {
+        "vehicles": 3,
+        "objective": 591.17,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C204",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C204.json",
+      "input_sha256": "10ab0e05cf11fb69f5af33d0baa5a0b650a18af87d91e87001c13087571ff87c",
+      "raw_file": "C204.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C204.txt",
+      "raw_sha256": "4331b2744d34e32c2987e3fe8a82b782a2039d757d2aac818f7e0fd21117bfb4",
+      "reference": {
+        "vehicles": 3,
+        "objective": 590.6,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C205",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C205.json",
+      "input_sha256": "c9cdade022496448a302a8df41a0fff014bd9cbea12d7eb87a45c3191aef975c",
+      "raw_file": "C205.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C205.txt",
+      "raw_sha256": "15be2bb8c3e4ad99a79d1e7ee0472223feb95a4f423d010e032bda0a87266ca5",
+      "reference": {
+        "vehicles": 3,
+        "objective": 588.88,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C206",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C206.json",
+      "input_sha256": "1bdc19727cf4c53b599276b556236f8748f519429fcd3430a648816014fee821",
+      "raw_file": "C206.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C206.txt",
+      "raw_sha256": "745b6c7042707ffbbfc4d681ee02a84431425f1dfb3c8aa85ecf003fec8f7e53",
+      "reference": {
+        "vehicles": 3,
+        "objective": 588.49,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C207",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C207.json",
+      "input_sha256": "c41d6927e833969db9b24cb28f419863c47bc27d3533f0be2b91c4de8cc9caf6",
+      "raw_file": "C207.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C207.txt",
+      "raw_sha256": "a33f03570a944c8a6d185fd6a173e66c68e67c399a4958b2d5b6d49533ace4a4",
+      "reference": {
+        "vehicles": 3,
+        "objective": 588.29,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "C208",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/C208.json",
+      "input_sha256": "5d89a948bb14cf362ebdb8c8d580015ca394391e31fa3b90828321e037600770",
+      "raw_file": "C208.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/C208.txt",
+      "raw_sha256": "1c2f2381b8743680dbeb34322869cbf5a6cdd8c281f4bcffdb99b533e601874b",
+      "reference": {
+        "vehicles": 3,
+        "objective": 588.32,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R101",
+      "kind": "routing",
+      "split": "development",
+      "input": "normalized/R101.json",
+      "input_sha256": "cb566e0fa03dca4d5dce59bc1b5cd58d47e610cb369ccd3c44846d8237b8d2a3",
+      "raw_file": "R101.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R101.txt",
+      "raw_sha256": "3f3655182bc0fe44ce5de65fdcd2ee2f9c7fb9ed055f923635151d9d6f76d3ed",
+      "reference": {
+        "vehicles": 19,
+        "objective": 1650.8,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R102",
+      "kind": "routing",
+      "split": "development",
+      "input": "normalized/R102.json",
+      "input_sha256": "cbe87e382e5c45a8470f73df3015d4304c8de51caec7e99a31acfdde1e5804eb",
+      "raw_file": "R102.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R102.txt",
+      "raw_sha256": "eeb23171b7e4fbfc80bf000ca770329109900fbd7273fa8b9d1f95b7dfe683c3",
+      "reference": {
+        "vehicles": 17,
+        "objective": 1486.12,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R103",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R103.json",
+      "input_sha256": "9e9e28415fe38ae3f0e90c1ca94f5e4dfb63cee8e223e798618e41a34a1b1a7c",
+      "raw_file": "R103.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R103.txt",
+      "raw_sha256": "1f833e8648ba39e0edc76754fb49e81777a7175cf7b084c3f60a12607bfb3991",
+      "reference": {
+        "vehicles": 13,
+        "objective": 1292.68,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R104",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R104.json",
+      "input_sha256": "45bcc1095833730568c33094e91a3eda9c62f753c90073fca8e51e64e8777ee5",
+      "raw_file": "R104.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R104.txt",
+      "raw_sha256": "dd087124311d91facd81736debbfc7d0f351d27942917e2d76cbafd01e6183b7",
+      "reference": {
+        "vehicles": 9,
+        "objective": 1007.31,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R105",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R105.json",
+      "input_sha256": "6fba139f71398ca7773afa505be1b4252953b2f6b6a1e522c0499811b5ce3740",
+      "raw_file": "R105.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R105.txt",
+      "raw_sha256": "ff1a614f8458d6339b3f54d8e4ca2dcf0a35c96012f477f6a819ae481de85ca4",
+      "reference": {
+        "vehicles": 14,
+        "objective": 1377.11,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R106",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R106.json",
+      "input_sha256": "ae471055b2ab0ec7b48f57b7ea016e39b2ba5612df11ec232082121717642407",
+      "raw_file": "R106.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R106.txt",
+      "raw_sha256": "31b8783d177f0fbe1c84b8f085fbf28b1989a80e4c00f49f5654ebef99835e97",
+      "reference": {
+        "vehicles": 12,
+        "objective": 1252.03,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R107",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R107.json",
+      "input_sha256": "93f6d4ef1a202bcbb62b0d0918125043d53419376784fed875e0974f01153ccc",
+      "raw_file": "R107.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R107.txt",
+      "raw_sha256": "dba2b257a1d43d7c78d5e3a9f09091a2b125d3fbec78c0c8a1782add669a1275",
+      "reference": {
+        "vehicles": 10,
+        "objective": 1104.66,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R108",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R108.json",
+      "input_sha256": "7d78b3ae38006d2b204ea3b8bc4d93149ee89409a7b74e8c0eca7b1c34fd85c1",
+      "raw_file": "R108.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R108.txt",
+      "raw_sha256": "65cae09f4099b7e70d2b723e0e3a30aa1494c75a367bb894a3fd13241ee639d4",
+      "reference": {
+        "vehicles": 9,
+        "objective": 960.88,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R109",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R109.json",
+      "input_sha256": "01494481bb6443eaa3221325dbd6e219579de87a6aba2968008c4b2abbbdf897",
+      "raw_file": "R109.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R109.txt",
+      "raw_sha256": "4ef24030e8c48de5f85dcd90c5739186004fc8dec87533b6467013cf996f4777",
+      "reference": {
+        "vehicles": 11,
+        "objective": 1194.73,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R110",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R110.json",
+      "input_sha256": "93d2c7c5cedbcd76092ab4c6bec69f742c970665357a8df3fcb189bc780d8ca4",
+      "raw_file": "R110.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R110.txt",
+      "raw_sha256": "14cb53cb99af61d3d708f07564b9a72d146e7c26b4f10507cfaf3bc828f34bfa",
+      "reference": {
+        "vehicles": 10,
+        "objective": 1118.84,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R111",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R111.json",
+      "input_sha256": "b58c0403a02b1d2b6e7d0a6b00a7e772b2f35c8b36954234a0c9db871c8431c5",
+      "raw_file": "R111.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R111.txt",
+      "raw_sha256": "3d94a73b1f2fe8aae4618b9d9ea254cff2e3924a6a841aa390096ec6c60f258d",
+      "reference": {
+        "vehicles": 10,
+        "objective": 1096.73,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R112",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R112.json",
+      "input_sha256": "666ff3ce69f390564cf48adba55c8f4eb74022427411a69181b1a9d34c9f1e3c",
+      "raw_file": "R112.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R112.txt",
+      "raw_sha256": "a0e93149d59d30c356619891d192e86d0f16c3158e1dac3bd9f23c6deb718271",
+      "reference": {
+        "vehicles": 9,
+        "objective": 982.14,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R201",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R201.json",
+      "input_sha256": "ef8e5c8e94716e087f9ef83f3a316b47cbda5377a0376151de370167e5fb33ec",
+      "raw_file": "R201.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R201.txt",
+      "raw_sha256": "0be960ec998fff2cab0bdbcc5194c617e5ca0a79c82c5b32b1d4bd98b2cae210",
+      "reference": {
+        "vehicles": 4,
+        "objective": 1252.37,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R202",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R202.json",
+      "input_sha256": "3741af509bc000287e8680f63c18213b98cf3a4c3972a37883b05591838aa833",
+      "raw_file": "R202.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R202.txt",
+      "raw_sha256": "1f7761bb33e9dd0c94837b32c72280296ffc283dba997379c7ad75ce00dffc8d",
+      "reference": {
+        "vehicles": 3,
+        "objective": 1191.7,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R203",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R203.json",
+      "input_sha256": "7af183b0ef2e3d85bc66178e9c82b7993b05cbf8836d06c9c134220c00f78586",
+      "raw_file": "R203.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R203.txt",
+      "raw_sha256": "38c484db31bd7452a94d533e26a2348ef598df600b79d061d9ddc1c61466a731",
+      "reference": {
+        "vehicles": 3,
+        "objective": 939.5,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R204",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R204.json",
+      "input_sha256": "46235a981fa532558ccee499edb89a2877e373fe69482bcbe6da1195e11f0b1f",
+      "raw_file": "R204.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R204.txt",
+      "raw_sha256": "5349e37d8df99bcbee1efa2e970d2662b5265e5f82fc609343a6af0a60257abf",
+      "reference": {
+        "vehicles": 2,
+        "objective": 825.52,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R205",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R205.json",
+      "input_sha256": "04a1f599ea6a7c4fc2125b579e498a205b4f2f18cdaed1d95d99c3ba373b28a0",
+      "raw_file": "R205.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R205.txt",
+      "raw_sha256": "1996bf8f10716fb8cfc1a585206a6a6e566f32347c1bb8f36c75ed6c887f77e3",
+      "reference": {
+        "vehicles": 3,
+        "objective": 994.43,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R206",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R206.json",
+      "input_sha256": "3b9f80945aa311e5ffe8d0207a0e6bee57e36ae61d56cec599c0e6e9a12debae",
+      "raw_file": "R206.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R206.txt",
+      "raw_sha256": "c8754a0319264d076c038b1bf023c8c4710e8895fe3e03f485e9ae249f32fe43",
+      "reference": {
+        "vehicles": 3,
+        "objective": 906.14,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R207",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R207.json",
+      "input_sha256": "764a1988bf4c9f990d4cd0f4745e2d76d2944ccd4b1a063f2677ed62be61092e",
+      "raw_file": "R207.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R207.txt",
+      "raw_sha256": "52dc8eebba43fdc67ca9aadab228b75a297acb55a87db3e4748e82f623e3cbe6",
+      "reference": {
+        "vehicles": 2,
+        "objective": 890.61,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R208",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R208.json",
+      "input_sha256": "ab664bf444fc0fcf121264dfb0ec987f66cd09e1165e9d6d4991a9d917f8c8ce",
+      "raw_file": "R208.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R208.txt",
+      "raw_sha256": "7b4a95d500af9329dd08791d39898a619faec0f8fac039d57373e761545b980d",
+      "reference": {
+        "vehicles": 2,
+        "objective": 726.82,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R209",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R209.json",
+      "input_sha256": "8b19e43ba668fa4bab79d01f87160aae87243cccde0645453c3a97d814db2db6",
+      "raw_file": "R209.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R209.txt",
+      "raw_sha256": "5b74156d032babcff853ccc693f94463eca8333cd425aa99a39ed996f6258933",
+      "reference": {
+        "vehicles": 3,
+        "objective": 909.16,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R210",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R210.json",
+      "input_sha256": "fcd8c8dc38414ad41b1681336d1eab0747bcf7bcd06c629c6a874a9a06d573a0",
+      "raw_file": "R210.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R210.txt",
+      "raw_sha256": "4e5772f109fb6183e6a648d6a1edaba3435438c2dc11c42da370fecf7bdf3a14",
+      "reference": {
+        "vehicles": 3,
+        "objective": 939.37,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "R211",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/R211.json",
+      "input_sha256": "d92315717bae3c12348d49467686d882c6924909daa10a5ff1d59a8d9af277d9",
+      "raw_file": "R211.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/R211.txt",
+      "raw_sha256": "2965507e467a2f92acd59035975910e36ae11e4f49590d4c7d20a883939227ad",
+      "reference": {
+        "vehicles": 2,
+        "objective": 885.71,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC101",
+      "kind": "routing",
+      "split": "development",
+      "input": "normalized/RC101.json",
+      "input_sha256": "f304a4123a090106d607b869386eddeaa076a6c8a8889299755610978703dd6a",
+      "raw_file": "RC101.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC101.txt",
+      "raw_sha256": "ef6893ffd9746ad96de8e4da6e64e2c4ba6e08a1c7eb9457276a9f1caf01ca12",
+      "reference": {
+        "vehicles": 14,
+        "objective": 1696.95,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC102",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC102.json",
+      "input_sha256": "a190202de156c1e5719b4f4ebf69d70f21c938a418ac4c4a2199a65ce58a5aa2",
+      "raw_file": "RC102.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC102.txt",
+      "raw_sha256": "36acd349d34a577c7fadd61f78517c2cb74bd06a490273800c288f341e5785a4",
+      "reference": {
+        "vehicles": 12,
+        "objective": 1554.75,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC103",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC103.json",
+      "input_sha256": "1ce2eeb9f533766aa745b212d27a636b891323ce9bd699ec18da7e237c6e2c52",
+      "raw_file": "RC103.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC103.txt",
+      "raw_sha256": "00f384138274d5d2bff5c41601db17cc4ad0cfc6315c27e223d4477bf435cc2d",
+      "reference": {
+        "vehicles": 11,
+        "objective": 1261.67,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC104",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC104.json",
+      "input_sha256": "bc047a5fb6f991236a989a5050e66032258cf818c253c770ae1c2642c9e742c0",
+      "raw_file": "RC104.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC104.txt",
+      "raw_sha256": "d150b2d61049a488fb89a2320c197d81a7ef9a1864abbbaea1d13a2b451253ee",
+      "reference": {
+        "vehicles": 10,
+        "objective": 1135.48,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC105",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC105.json",
+      "input_sha256": "536dbf1bbe7ddebb7a0cca87aa619c7970a48c6fe474974d70427d478c914bff",
+      "raw_file": "RC105.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC105.txt",
+      "raw_sha256": "b9e912625c1ed80d2f565e0799ade2f4b17bf4f95056322ca23f1a21b37e7a49",
+      "reference": {
+        "vehicles": 13,
+        "objective": 1629.44,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC106",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC106.json",
+      "input_sha256": "ccb211edf608e6ceb29e4d3e36a0cb203f5174bd6f48e1807dee52d01931cc75",
+      "raw_file": "RC106.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC106.txt",
+      "raw_sha256": "bf016ffc567af2d108570357daf1d0cabb7f680c0bd977d2e4366787683fdbaf",
+      "reference": {
+        "vehicles": 11,
+        "objective": 1424.73,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC107",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC107.json",
+      "input_sha256": "646b1256fa15e0b9ebdbf0d2339ea2a0737d9689650ad059b77e10150dcf2ea0",
+      "raw_file": "RC107.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC107.txt",
+      "raw_sha256": "fff3fd68d110671ed442575f07cc547291586f30b00c5f73934d521d31311582",
+      "reference": {
+        "vehicles": 11,
+        "objective": 1230.48,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC108",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC108.json",
+      "input_sha256": "58ea5c55585fdeeef4c3db4d87eb180d8d99eee5ee1c69f079e247cad0a0e4c5",
+      "raw_file": "RC108.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC108.txt",
+      "raw_sha256": "006bc8817bf09f9a8c66af8d6f088bdec239b2eb435556e9d11193cf456f7aeb",
+      "reference": {
+        "vehicles": 10,
+        "objective": 1139.82,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC201",
+      "kind": "routing",
+      "split": "development",
+      "input": "normalized/RC201.json",
+      "input_sha256": "acc40f4981cad3cfc3ecf1dd4b94d6c22c0697dfeffe2c340abcccf9a873bd7c",
+      "raw_file": "RC201.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC201.txt",
+      "raw_sha256": "288836e2d8c2ace83ebbff77e03ac8cdffc574fc134cade21ef92713f8c52d44",
+      "reference": {
+        "vehicles": 4,
+        "objective": 1406.94,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC202",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC202.json",
+      "input_sha256": "eea303751fa506b60560395ac4f34fa655922199e3638b0d065715e388b0ac9e",
+      "raw_file": "RC202.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC202.txt",
+      "raw_sha256": "5a1dee2017ab0ca4fe280b392678c96e8b5bc71f22d02c8058fbde7c4cfebcf4",
+      "reference": {
+        "vehicles": 3,
+        "objective": 1365.65,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC203",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC203.json",
+      "input_sha256": "a8b2b26f08906a568db9d8ac5147f0824e0ccfe4dff1fe5518e3df1d7386a496",
+      "raw_file": "RC203.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC203.txt",
+      "raw_sha256": "4adcb362c23df91f14b828d4964e9383ffb02ee74217afc2d84571f83ed91f8b",
+      "reference": {
+        "vehicles": 3,
+        "objective": 1049.62,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC204",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC204.json",
+      "input_sha256": "2d699eeb3a344c0a8a015a70fc77888aac849558198afc4e84162709b531f4b0",
+      "raw_file": "RC204.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC204.txt",
+      "raw_sha256": "11e827eab51a959ebab66344e7b7cfd1aeed895287653b36a72c86a4440ecd77",
+      "reference": {
+        "vehicles": 3,
+        "objective": 798.46,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC205",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC205.json",
+      "input_sha256": "495597efd25ccb35ee22469b42f447fc326a35e36b691a7c89ad38e31abb4d6c",
+      "raw_file": "RC205.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC205.txt",
+      "raw_sha256": "c061d306cf42310b0f3ca15612089f6c5a8d5604c0733bf26852477c787662c9",
+      "reference": {
+        "vehicles": 4,
+        "objective": 1297.65,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC206",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC206.json",
+      "input_sha256": "32e8730f54e530425fd0a07cad23ee05d0784743d207e8fa5c6c26f59b9e0e30",
+      "raw_file": "RC206.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC206.txt",
+      "raw_sha256": "5203aecf67c84df49e152645312a837ffefde529314ff892ca061538816e43a9",
+      "reference": {
+        "vehicles": 3,
+        "objective": 1146.32,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC207",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC207.json",
+      "input_sha256": "23f6780bfda53a4a13728031ea02a41ca37a1935968b67aedbd6562dc4a5242c",
+      "raw_file": "RC207.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC207.txt",
+      "raw_sha256": "5cab65f99b350cdb8fb1c4d0a12dde85eb4ff6a6d6daf292b182cb73de9a8b63",
+      "reference": {
+        "vehicles": 3,
+        "objective": 1061.14,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    },
+    {
+      "id": "RC208",
+      "kind": "routing",
+      "split": "holdout",
+      "input": "normalized/RC208.json",
+      "input_sha256": "1c6b8abd1c1d6f21e360e9ab5a01e6e4e7957b3809f6a207ed6081ef2f90361e",
+      "raw_file": "RC208.txt",
+      "raw_url": "https://raw.githubusercontent.com/iRB-Lab/py-ga-VRPTW/master/data/text/RC208.txt",
+      "raw_sha256": "3d67d2a8e2758a324643f5d6c6ca87e8c56435273eaa04be33f213bb991f1f28",
+      "reference": {
+        "vehicles": 3,
+        "objective": 828.14,
+        "rounding_abs_tolerance": 0.005,
+        "type": "best_known_feasible",
+        "source": "https://www.sintef.no/projectweb/top/vrptw/100-customers/"
+      }
+    }
+  ],
+  "source_files": 96,
+  "normalized_instances": 100,
+  "note": "Forty-four facility cases include seven explicitly identified published capacity variants. Fifty-six routing cases have 100 customers each. Public reference values are confined to evaluation metadata and are never passed to an optimizer."
+}

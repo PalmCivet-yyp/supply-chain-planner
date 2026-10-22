@@ -1,0 +1,13 @@
+interface:
+  display_name: 供应链决策与验证工具
+  short_description: 运行库存采购与复杂优化，输出完整决策、约束核查和可复算的计算证据
+  default_prompt: 使用 $supply-chain-planner 核查我的供应链数据，调用库存采购或复杂优化引擎，在限定预算内输出完整可行方案、验证结果和求解保证。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

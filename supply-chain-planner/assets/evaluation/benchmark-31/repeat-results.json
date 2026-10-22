@@ -1,0 +1,530 @@
+[
+  {
+    "id": "C101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 23,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428341,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594622043131,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 7.815346417000001,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 6.944454543999655,
+          "total_seconds": 6.955978983000023
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428341,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594622043131,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.142319357999895,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 6.442159967999942,
+          "total_seconds": 9.342613197999981
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 41,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428341,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594622043131,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.167222165000112,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 6.892607538999982,
+          "total_seconds": 9.42973549899989
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 828.9368669428341,
+        "vehicles": 10,
+        "gap_pct": -0.0003779594622043131,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 7.7356636569998045,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 6.921268054999928,
+          "total_seconds": 6.930496876999769
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C201",
+    "kind": "routing",
+    "split": "development",
+    "seed": 23,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.5565566715015,
+        "vehicles": 3,
+        "gap_pct": -0.0005820759514514364,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.266906608999761,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.508993810999982
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.5565566715019,
+        "vehicles": 3,
+        "gap_pct": -0.000582075951393782,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.95687198700034,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.116572098999768,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.118248318000042
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "C201",
+    "kind": "routing",
+    "split": "development",
+    "seed": 41,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.5565566715015,
+        "vehicles": 3,
+        "gap_pct": -0.0005820759514514364,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.891187920999982,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.115851031000147,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.117023735000203
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 591.5565566715015,
+        "vehicles": 3,
+        "gap_pct": -0.0005820759514514364,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.312250554000002,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.51240299500023
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 23,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1654.2303263427775,
+        "vehicles": 19,
+        "gap_pct": 0.20779781577281087,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.320280250999986,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.514489045999653,
+          "total_seconds": 9.52191665700002
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1654.2303263427775,
+        "vehicles": 19,
+        "gap_pct": 0.20779781577281087,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.330696072000137,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.525678944999981,
+          "total_seconds": 9.533816751000359
+        }
+      }
+    },
+    "change": "tie",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 41,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1651.949847177275,
+        "vehicles": 19,
+        "gap_pct": 0.06965393610824921,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.270074292999652,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.512075047000053,
+          "total_seconds": 9.519909566000024
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1656.3776166498258,
+        "vehicles": 19,
+        "gap_pct": 0.33787355523538976,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.283216031999928,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.520451814999888,
+          "total_seconds": 9.52870275100031
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R102",
+    "kind": "routing",
+    "split": "development",
+    "seed": 23,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1492.3148576419062,
+        "vehicles": 17,
+        "gap_pct": 0.4168477405530045,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.263278130999879,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.524986347999857
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1486.119471080835,
+        "vehicles": 17,
+        "gap_pct": -3.559060943499581e-05,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.016171902999758,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.25656247500001,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.258152786999744
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "R102",
+    "kind": "routing",
+    "split": "development",
+    "seed": 41,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1486.1194710808354,
+        "vehicles": 17,
+        "gap_pct": -3.559060940439617e-05,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 9.009612830000151,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 8.263903037000091,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 8.2656760939999
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": true,
+        "objective": 1491.8602810770271,
+        "vehicles": 17,
+        "gap_pct": 0.38625959391080456,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 8.324957355999686,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.521270089000154
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 23,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1664.8155519180573,
+        "vehicles": 15,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 8.50300740199964,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.787203751000106
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1660.000322740793,
+        "vehicles": 15,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 10.580746548999741,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.86429180999994,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.865803495999899
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC101",
+    "kind": "routing",
+    "split": "development",
+    "seed": 41,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1770.1488903128939,
+        "vehicles": 14,
+        "gap_pct": 4.3135561043574535,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.453341329000068,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.729331299999558,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.730899390000104
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1674.5369333137105,
+        "vehicles": 15,
+        "gap_pct": null,
+        "certificate_valid": null,
+        "distance_gap_comparable": false,
+        "process_returncode": 0,
+        "wall_seconds": 8.401165005000166,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 7.670272146000116
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC201",
+    "kind": "routing",
+    "split": "development",
+    "seed": 23,
+    "seconds": 10,
+    "arms": {
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1487.879328591518,
+        "vehicles": 4,
+        "gap_pct": 5.75286285069143,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 12.829410150000058,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 11.996414030999858
+        }
+      },
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1429.860630552862,
+        "vehicles": 4,
+        "gap_pct": 1.6291121549505945,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.676241899999695,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.898910959000204,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.900734502999967
+        }
+      }
+    },
+    "change": "better",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  },
+  {
+    "id": "RC201",
+    "kind": "routing",
+    "split": "development",
+    "seed": 41,
+    "seconds": 10,
+    "arms": {
+      "v31": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1456.8161103756117,
+        "vehicles": 4,
+        "gap_pct": 3.545006210329629,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 10.71597177600006,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "seconds": 9.950880898999912,
+          "bound_scope": "Observed route pools only; not a global optimum certificate",
+          "total_seconds": 9.952734878000228
+        }
+      },
+      "v30": {
+        "feasible": true,
+        "target_met": false,
+        "objective": 1449.026197699401,
+        "vehicles": 4,
+        "gap_pct": 2.9913285356448074,
+        "certificate_valid": null,
+        "distance_gap_comparable": true,
+        "process_returncode": 0,
+        "wall_seconds": 11.22068340199985,
+        "reported_status": "feasible",
+        "native_evidence": {
+          "total_seconds": 10.417235633000018
+        }
+      }
+    },
+    "change": "worse",
+    "target_regression": false,
+    "weaker_valid_bound": false
+  }
+]

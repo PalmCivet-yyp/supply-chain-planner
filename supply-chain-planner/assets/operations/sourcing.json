@@ -1,0 +1,111 @@
+{
+  "as_of": "2026-10-20",
+  "currency": "CNY",
+  "quantity": 10,
+  "horizon_years": 2,
+  "criteria": [
+    {
+      "id": "tco",
+      "weight": 0.4
+    },
+    {
+      "id": "quality",
+      "weight": 0.6
+    }
+  ],
+  "requirements": [
+    "warranty"
+  ],
+  "sources": [
+    {
+      "id": "quote_a",
+      "url": "https://example.invalid/synthetic/quote_a",
+      "title": "模拟报价与规格，非真实外部证据",
+      "checked_on": "2026-10-19",
+      "status": "verified",
+      "supports": [
+        "costs",
+        "warranty",
+        "quality"
+      ],
+      "review_note": "模拟核查记录，仅用于离线演示。真实决策必须替换来源并逐项核实。"
+    },
+    {
+      "id": "quote_b",
+      "url": "https://example.invalid/synthetic/quote_b",
+      "title": "模拟报价与规格，非真实外部证据",
+      "checked_on": "2026-10-19",
+      "status": "verified",
+      "supports": [
+        "costs",
+        "warranty",
+        "quality"
+      ],
+      "review_note": "模拟核查记录，仅用于离线演示。真实决策必须替换来源并逐项核实。"
+    }
+  ],
+  "options": [
+    {
+      "id": "A",
+      "name": "模拟方案A",
+      "currency": "CNY",
+      "costs": {
+        "unit_price": 100,
+        "freight": 50,
+        "setup": 100,
+        "annual_support": 200,
+        "annual_energy": 50,
+        "disposal": 20,
+        "residual_value": 50
+      },
+      "requirements": {
+        "warranty": "pass"
+      },
+      "scores": {
+        "quality": 90
+      },
+      "evidence": {
+        "costs": [
+          "quote_a"
+        ],
+        "warranty": [
+          "quote_a"
+        ],
+        "quality": [
+          "quote_a"
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "模拟方案B",
+      "currency": "CNY",
+      "costs": {
+        "unit_price": 115,
+        "freight": 50,
+        "setup": 0,
+        "annual_support": 50,
+        "annual_energy": 25,
+        "disposal": 20,
+        "residual_value": 50
+      },
+      "requirements": {
+        "warranty": "pass"
+      },
+      "scores": {
+        "quality": 80
+      },
+      "evidence": {
+        "costs": [
+          "quote_b"
+        ],
+        "warranty": [
+          "quote_b"
+        ],
+        "quality": [
+          "quote_b"
+        ]
+      }
+    }
+  ]
+}

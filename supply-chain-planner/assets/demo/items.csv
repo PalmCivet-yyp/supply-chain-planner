@@ -1,0 +1,7 @@
+sku,location,on_hand,reserved,backorders,lead_time_days,review_period_days,service_level,moq,pack_size,unit_cost,currency
+FAST-01,GZ,25,5,0,7,7,0.95,50,12,18,CNY
+TIMING-02,GZ,20,0,0,7,7,0.95,0,10,25,CNY
+SLOW-03,GZ,360,0,0,5,7,0.95,20,10,8,CNY
+CENSORED-04,GZ,10,0,0,5,7,0.95,24,12,30,CNY
+OVERDUE-05,GZ,15,0,0,7,7,0.95,50,10,15,CNY
+FAST-01,SZ,180,0,0,5,7,0.95,50,12,18,CNY

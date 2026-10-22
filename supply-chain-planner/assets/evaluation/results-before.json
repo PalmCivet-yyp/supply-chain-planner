@@ -1,0 +1,402 @@
+{
+  "kind": "synthetic_acceptance",
+  "target_version": "2.0.0",
+  "fixture_sha256": "033abd72ca68767f6b16397b35320f02a0f7efc8b220fe0f908af2a5597847ff",
+  "runner_sha256": "f301c6bd1f112acc9bf8da5f377468b757c1b3c236abf1db63a8f5ac3bd9a629",
+  "scope": "Developer acceptance cases; no real-business savings or independent forecast benchmark.",
+  "summary": {
+    "inventory": {
+      "pass": 10,
+      "fail": 6,
+      "unsupported": 0
+    },
+    "procurement": {
+      "pass": 0,
+      "fail": 0,
+      "unsupported": 12
+    },
+    "sourcing": {
+      "pass": 0,
+      "fail": 0,
+      "unsupported": 12
+    },
+    "sop": {
+      "pass": 0,
+      "fail": 0,
+      "unsupported": 12
+    },
+    "export": {
+      "pass": 0,
+      "fail": 0,
+      "unsupported": 8
+    }
+  },
+  "cases": [
+    {
+      "id": "C01",
+      "category": "inventory",
+      "purpose": "constant quantity",
+      "status": "pass"
+    },
+    {
+      "id": "C02",
+      "category": "inventory",
+      "purpose": "internal missing day",
+      "status": "pass"
+    },
+    {
+      "id": "C03",
+      "category": "inventory",
+      "purpose": "mature item leading gap",
+      "status": "fail",
+      "detail": "AssertionError: ('ready_for_review', 'blocked')"
+    },
+    {
+      "id": "C04",
+      "category": "inventory",
+      "purpose": "unknown history start",
+      "status": "fail",
+      "detail": "AssertionError: ('ready_for_review', 'scenario_only')"
+    },
+    {
+      "id": "C05",
+      "category": "inventory",
+      "purpose": "documented launch",
+      "status": "pass"
+    },
+    {
+      "id": "C06",
+      "category": "inventory",
+      "purpose": "missing launch day",
+      "status": "fail",
+      "detail": "AssertionError: ('ready_for_review', 'blocked')"
+    },
+    {
+      "id": "C07",
+      "category": "inventory",
+      "purpose": "late PO avoids duplicate",
+      "status": "pass"
+    },
+    {
+      "id": "C08",
+      "category": "inventory",
+      "purpose": "censored sales",
+      "status": "pass"
+    },
+    {
+      "id": "C09",
+      "category": "inventory",
+      "purpose": "zero demand",
+      "status": "pass"
+    },
+    {
+      "id": "C10",
+      "category": "inventory",
+      "purpose": "lost sales versus backlog",
+      "status": "pass"
+    },
+    {
+      "id": "C11",
+      "category": "inventory",
+      "purpose": "warehouse key isolation",
+      "status": "pass"
+    },
+    {
+      "id": "C12",
+      "category": "inventory",
+      "purpose": "future snapshot invariance",
+      "status": "pass"
+    },
+    {
+      "id": "C13",
+      "category": "inventory",
+      "purpose": "warmup disclosure",
+      "status": "fail",
+      "detail": "AssertionError: (None, '2026-01-02')"
+    },
+    {
+      "id": "C14",
+      "category": "inventory",
+      "purpose": "sealed policy selection",
+      "status": "pass"
+    },
+    {
+      "id": "C15",
+      "category": "inventory",
+      "purpose": "per-decision access dates",
+      "status": "fail",
+      "detail": "AssertionError: missing per-decision history dates"
+    },
+    {
+      "id": "C16",
+      "category": "inventory",
+      "purpose": "history preceding launch",
+      "status": "fail",
+      "detail": "AssertionError: ('ready_for_review', 'blocked')"
+    },
+    {
+      "id": "P01",
+      "category": "procurement",
+      "purpose": "separate currencies",
+      "status": "unsupported"
+    },
+    {
+      "id": "P02",
+      "category": "procurement",
+      "purpose": "explicit supplier alias",
+      "status": "unsupported"
+    },
+    {
+      "id": "P03",
+      "category": "procurement",
+      "purpose": "concentration arithmetic",
+      "status": "unsupported"
+    },
+    {
+      "id": "P04",
+      "category": "procurement",
+      "purpose": "shared upstream",
+      "status": "unsupported"
+    },
+    {
+      "id": "P05",
+      "category": "procurement",
+      "purpose": "unknown independence",
+      "status": "unsupported"
+    },
+    {
+      "id": "P06",
+      "category": "procurement",
+      "purpose": "procurement duration",
+      "status": "unsupported"
+    },
+    {
+      "id": "P07",
+      "category": "procurement",
+      "purpose": "joint line OTIF",
+      "status": "unsupported"
+    },
+    {
+      "id": "P08",
+      "category": "procurement",
+      "purpose": "due-date population",
+      "status": "unsupported"
+    },
+    {
+      "id": "P09",
+      "category": "procurement",
+      "purpose": "partial invoice match",
+      "status": "unsupported"
+    },
+    {
+      "id": "P10",
+      "category": "procurement",
+      "purpose": "invoice discrepancy",
+      "status": "unsupported"
+    },
+    {
+      "id": "P11",
+      "category": "procurement",
+      "purpose": "duplicate spend id",
+      "status": "unsupported"
+    },
+    {
+      "id": "P12",
+      "category": "procurement",
+      "purpose": "reversed cycle dates",
+      "status": "unsupported"
+    },
+    {
+      "id": "T01",
+      "category": "sourcing",
+      "purpose": "TCO arithmetic",
+      "status": "unsupported"
+    },
+    {
+      "id": "T02",
+      "category": "sourcing",
+      "purpose": "weighted comparison",
+      "status": "unsupported"
+    },
+    {
+      "id": "T03",
+      "category": "sourcing",
+      "purpose": "hard requirement veto",
+      "status": "unsupported"
+    },
+    {
+      "id": "T04",
+      "category": "sourcing",
+      "purpose": "unknown requirement",
+      "status": "unsupported"
+    },
+    {
+      "id": "T05",
+      "category": "sourcing",
+      "purpose": "unverified evidence",
+      "status": "unsupported"
+    },
+    {
+      "id": "T06",
+      "category": "sourcing",
+      "purpose": "stale evidence",
+      "status": "unsupported"
+    },
+    {
+      "id": "T07",
+      "category": "sourcing",
+      "purpose": "refuted evidence",
+      "status": "unsupported"
+    },
+    {
+      "id": "T08",
+      "category": "sourcing",
+      "purpose": "future evidence date",
+      "status": "unsupported"
+    },
+    {
+      "id": "T09",
+      "category": "sourcing",
+      "purpose": "mixed currency",
+      "status": "unsupported"
+    },
+    {
+      "id": "T10",
+      "category": "sourcing",
+      "purpose": "missing lifecycle cost",
+      "status": "unsupported"
+    },
+    {
+      "id": "T11",
+      "category": "sourcing",
+      "purpose": "invalid weights",
+      "status": "unsupported"
+    },
+    {
+      "id": "T12",
+      "category": "sourcing",
+      "purpose": "weight sensitivity",
+      "status": "unsupported"
+    },
+    {
+      "id": "O01",
+      "category": "sop",
+      "purpose": "forecast KPI arithmetic",
+      "status": "unsupported"
+    },
+    {
+      "id": "O02",
+      "category": "sop",
+      "purpose": "zero-demand denominators",
+      "status": "unsupported"
+    },
+    {
+      "id": "O03",
+      "category": "sop",
+      "purpose": "MAPE coverage",
+      "status": "unsupported"
+    },
+    {
+      "id": "O04",
+      "category": "sop",
+      "purpose": "backlog carryover",
+      "status": "unsupported"
+    },
+    {
+      "id": "O05",
+      "category": "sop",
+      "purpose": "capacity limit",
+      "status": "unsupported"
+    },
+    {
+      "id": "O06",
+      "category": "sop",
+      "purpose": "demand scenario",
+      "status": "unsupported"
+    },
+    {
+      "id": "O07",
+      "category": "sop",
+      "purpose": "warehouse isolation",
+      "status": "unsupported"
+    },
+    {
+      "id": "O08",
+      "category": "sop",
+      "purpose": "unassigned owner",
+      "status": "unsupported"
+    },
+    {
+      "id": "O09",
+      "category": "sop",
+      "purpose": "future history",
+      "status": "unsupported"
+    },
+    {
+      "id": "O10",
+      "category": "sop",
+      "purpose": "duplicate plan",
+      "status": "unsupported"
+    },
+    {
+      "id": "O11",
+      "category": "sop",
+      "purpose": "month gap",
+      "status": "unsupported"
+    },
+    {
+      "id": "O12",
+      "category": "sop",
+      "purpose": "zero supply backlog",
+      "status": "unsupported"
+    },
+    {
+      "id": "X01",
+      "category": "export",
+      "purpose": "portable formula export",
+      "status": "unsupported"
+    },
+    {
+      "id": "X02",
+      "category": "export",
+      "purpose": "leading zero identifier",
+      "status": "unsupported"
+    },
+    {
+      "id": "X03",
+      "category": "export",
+      "purpose": "formula-like identifier",
+      "status": "unsupported"
+    },
+    {
+      "id": "X04",
+      "category": "export",
+      "purpose": "blocked quantity stays blank",
+      "status": "unsupported"
+    },
+    {
+      "id": "X05",
+      "category": "export",
+      "purpose": "missing price stays blank",
+      "status": "unsupported"
+    },
+    {
+      "id": "X06",
+      "category": "export",
+      "purpose": "empty projection",
+      "status": "unsupported"
+    },
+    {
+      "id": "X07",
+      "category": "export",
+      "purpose": "overwrite protection",
+      "status": "unsupported"
+    },
+    {
+      "id": "X08",
+      "category": "export",
+      "purpose": "backtest sheet",
+      "status": "unsupported"
+    }
+  ]
+}

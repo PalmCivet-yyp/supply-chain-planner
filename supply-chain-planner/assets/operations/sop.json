@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-10-20",
+  "meeting_date": "2026-10-21",
+  "next_meeting_date": "2026-11-21",
+  "opening_date": "2026-11-01",
+  "opening": [
+    {
+      "sku": "001",
+      "location": "GZ",
+      "stock": 20,
+      "backlog": 0
+    }
+  ],
+  "history": [
+    {
+      "sku": "001",
+      "location": "GZ",
+      "period": "2026-08",
+      "actual": 100,
+      "forecast": 110
+    },
+    {
+      "sku": "001",
+      "location": "GZ",
+      "period": "2026-09",
+      "actual": 200,
+      "forecast": 180
+    }
+  ],
+  "plan": [
+    {
+      "sku": "001",
+      "location": "GZ",
+      "period": "2026-11",
+      "demand": 100,
+      "planned_supply": 50,
+      "capacity": 60
+    },
+    {
+      "sku": "001",
+      "location": "GZ",
+      "period": "2026-12",
+      "demand": 80,
+      "planned_supply": 100,
+      "capacity": 90
+    }
+  ],
+  "owners": {
+    "demand": "需求计划员",
+    "supply": "供应计划员",
+    "procurement": "采购专员"
+  },
+  "scenarios": [
+    {
+      "id": "base",
+      "demand_factor": 1,
+      "supply_factor": 1
+    },
+    {
+      "id": "demand_up_20pct",
+      "demand_factor": 1.2,
+      "supply_factor": 1
+    }
+  ]
+}

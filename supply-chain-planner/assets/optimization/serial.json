@@ -1,0 +1,25 @@
+{
+  "node_order_upstream_to_downstream": [
+    2,
+    1
+  ],
+  "echelon_holding_cost": {
+    "1": 2,
+    "2": 1
+  },
+  "local_holding_cost": {
+    "1": 3,
+    "2": 1
+  },
+  "shipment_lead_time": {
+    "1": 1,
+    "2": 2
+  },
+  "stockout_cost": 15,
+  "per_period_normal_demand_mean": 3,
+  "per_period_normal_demand_sd": 0.7,
+  "baseline_echelon_levels": {
+    "1": 3,
+    "2": 9
+  }
+}

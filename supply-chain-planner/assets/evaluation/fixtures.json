@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "cases": [
+    {
+      "id": "C01",
+      "category": "inventory",
+      "purpose": "constant quantity"
+    },
+    {
+      "id": "C02",
+      "category": "inventory",
+      "purpose": "internal missing day"
+    },
+    {
+      "id": "C03",
+      "category": "inventory",
+      "purpose": "mature item leading gap"
+    },
+    {
+      "id": "C04",
+      "category": "inventory",
+      "purpose": "unknown history start"
+    },
+    {
+      "id": "C05",
+      "category": "inventory",
+      "purpose": "documented launch"
+    },
+    {
+      "id": "C06",
+      "category": "inventory",
+      "purpose": "missing launch day"
+    },
+    {
+      "id": "C07",
+      "category": "inventory",
+      "purpose": "late PO avoids duplicate"
+    },
+    {
+      "id": "C08",
+      "category": "inventory",
+      "purpose": "censored sales"
+    },
+    {
+      "id": "C09",
+      "category": "inventory",
+      "purpose": "zero demand"
+    },
+    {
+      "id": "C10",
+      "category": "inventory",
+      "purpose": "lost sales versus backlog"
+    },
+    {
+      "id": "C11",
+      "category": "inventory",
+      "purpose": "warehouse key isolation"
+    },
+    {
+      "id": "C12",
+      "category": "inventory",
+      "purpose": "future snapshot invariance"
+    },
+    {
+      "id": "C13",
+      "category": "inventory",
+      "purpose": "warmup disclosure"
+    },
+    {
+      "id": "C14",
+      "category": "inventory",
+      "purpose": "sealed policy selection"
+    },
+    {
+      "id": "C15",
+      "category": "inventory",
+      "purpose": "per-decision access dates"
+    },
+    {
+      "id": "C16",
+      "category": "inventory",
+      "purpose": "history preceding launch"
+    },
+    {
+      "id": "P01",
+      "category": "procurement",
+      "purpose": "separate currencies"
+    },
+    {
+      "id": "P02",
+      "category": "procurement",
+      "purpose": "explicit supplier alias"
+    },
+    {
+      "id": "P03",
+      "category": "procurement",
+      "purpose": "concentration arithmetic"
+    },
+    {
+      "id": "P04",
+      "category": "procurement",
+      "purpose": "shared upstream"
+    },
+    {
+      "id": "P05",
+      "category": "procurement",
+      "purpose": "unknown independence"
+    },
+    {
+      "id": "P06",
+      "category": "procurement",
+      "purpose": "procurement duration"
+    },
+    {
+      "id": "P07",
+      "category": "procurement",
+      "purpose": "joint line OTIF"
+    },
+    {
+      "id": "P08",
+      "category": "procurement",
+      "purpose": "due-date population"
+    },
+    {
+      "id": "P09",
+      "category": "procurement",
+      "purpose": "partial invoice match"
+    },
+    {
+      "id": "P10",
+      "category": "procurement",
+      "purpose": "invoice discrepancy"
+    },
+    {
+      "id": "P11",
+      "category": "procurement",
+      "purpose": "duplicate spend id"
+    },
+    {
+      "id": "P12",
+      "category": "procurement",
+      "purpose": "reversed cycle dates"
+    },
+    {
+      "id": "T01",
+      "category": "sourcing",
+      "purpose": "TCO arithmetic"
+    },
+    {
+      "id": "T02",
+      "category": "sourcing",
+      "purpose": "weighted comparison"
+    },
+    {
+      "id": "T03",
+      "category": "sourcing",
+      "purpose": "hard requirement veto"
+    },
+    {
+      "id": "T04",
+      "category": "sourcing",
+      "purpose": "unknown requirement"
+    },
+    {
+      "id": "T05",
+      "category": "sourcing",
+      "purpose": "unverified evidence"
+    },
+    {
+      "id": "T06",
+      "category": "sourcing",
+      "purpose": "stale evidence"
+    },
+    {
+      "id": "T07",
+      "category": "sourcing",
+      "purpose": "refuted evidence"
+    },
+    {
+      "id": "T08",
+      "category": "sourcing",
+      "purpose": "future evidence date"
+    },
+    {
+      "id": "T09",
+      "category": "sourcing",
+      "purpose": "mixed currency"
+    },
+    {
+      "id": "T10",
+      "category": "sourcing",
+      "purpose": "missing lifecycle cost"
+    },
+    {
+      "id": "T11",
+      "category": "sourcing",
+      "purpose": "invalid weights"
+    },
+    {
+      "id": "T12",
+      "category": "sourcing",
+      "purpose": "weight sensitivity"
+    },
+    {
+      "id": "O01",
+      "category": "sop",
+      "purpose": "forecast KPI arithmetic"
+    },
+    {
+      "id": "O02",
+      "category": "sop",
+      "purpose": "zero-demand denominators"
+    },
+    {
+      "id": "O03",
+      "category": "sop",
+      "purpose": "MAPE coverage"
+    },
+    {
+      "id": "O04",
+      "category": "sop",
+      "purpose": "backlog carryover"
+    },
+    {
+      "id": "O05",
+      "category": "sop",
+      "purpose": "capacity limit"
+    },
+    {
+      "id": "O06",
+      "category": "sop",
+      "purpose": "demand scenario"
+    },
+    {
+      "id": "O07",
+      "category": "sop",
+      "purpose": "warehouse isolation"
+    },
+    {
+      "id": "O08",
+      "category": "sop",
+      "purpose": "unassigned owner"
+    },
+    {
+      "id": "O09",
+      "category": "sop",
+      "purpose": "future history"
+    },
+    {
+      "id": "O10",
+      "category": "sop",
+      "purpose": "duplicate plan"
+    },
+    {
+      "id": "O11",
+      "category": "sop",
+      "purpose": "month gap"
+    },
+    {
+      "id": "O12",
+      "category": "sop",
+      "purpose": "zero supply backlog"
+    },
+    {
+      "id": "X01",
+      "category": "export",
+      "purpose": "portable formula export"
+    },
+    {
+      "id": "X02",
+      "category": "export",
+      "purpose": "leading zero identifier"
+    },
+    {
+      "id": "X03",
+      "category": "export",
+      "purpose": "formula-like identifier"
+    },
+    {
+      "id": "X04",
+      "category": "export",
+      "purpose": "blocked quantity stays blank"
+    },
+    {
+      "id": "X05",
+      "category": "export",
+      "purpose": "missing price stays blank"
+    },
+    {
+      "id": "X06",
+      "category": "export",
+      "purpose": "empty projection"
+    },
+    {
+      "id": "X07",
+      "category": "export",
+      "purpose": "overwrite protection"
+    },
+    {
+      "id": "X08",
+      "category": "export",
+      "purpose": "backtest sheet"
+    }
+  ],
+  "inputs": {
+    "procurement": {
+      "as_of": "2026-10-20",
+      "supplier_aliases": {
+        "A Co.": "A"
+      },
+      "spend": [
+        {
+          "id": "0001",
+          "supplier": "A Co.",
+          "category": "components",
+          "period": "2026-09",
+          "amount": 600,
+          "currency": "CNY",
+          "upstream_group": "shared",
+          "critical": true
+        },
+        {
+          "id": "0002",
+          "supplier": "B",
+          "category": "components",
+          "period": "2026-09",
+          "amount": 400,
+          "currency": "CNY",
+          "upstream_group": "shared",
+          "critical": true
+        },
+        {
+          "id": "0003",
+          "supplier": "C",
+          "category": "components",
+          "period": "2026-09",
+          "amount": 100,
+          "currency": "USD"
+        }
+      ],
+      "cycles": [
+        {
+          "id": "C001",
+          "category": "components",
+          "requested": "2026-09-01",
+          "approved": "2026-09-03",
+          "po_created": "2026-09-05",
+          "paid": "2026-09-15"
+        }
+      ],
+      "deliveries": [
+        {
+          "id": "D001",
+          "supplier": "A",
+          "due_date": "2026-09-10",
+          "delivered_date": "2026-09-09",
+          "ordered_qty": 100,
+          "delivered_qty": 80
+        },
+        {
+          "id": "D002",
+          "supplier": "A",
+          "due_date": "2026-09-10",
+          "delivered_date": "2026-09-11",
+          "ordered_qty": 100,
+          "delivered_qty": 100
+        }
+      ],
+      "matches": [
+        {
+          "id": "M001",
+          "currency": "CNY",
+          "po_qty": 100,
+          "received_qty": 60,
+          "invoice_qty": 50,
+          "unit_price": 2.5,
+          "invoice_amount": 125,
+          "amount_tolerance": 0.01
+        }
+      ]
+    },
+    "sourcing": {
+      "as_of": "2026-10-20",
+      "currency": "CNY",
+      "quantity": 10,
+      "horizon_years": 2,
+      "criteria": [
+        {
+          "id": "tco",
+          "weight": 0.4
+        },
+        {
+          "id": "quality",
+          "weight": 0.6
+        }
+      ],
+      "requirements": [
+        "warranty"
+      ],
+      "sources": [
+        {
+          "id": "quote_a",
+          "url": "https://example.invalid/synthetic/quote_a",
+          "title": "模拟报价与规格，非真实外部证据",
+          "checked_on": "2026-10-19",
+          "status": "verified",
+          "supports": [
+            "costs",
+            "warranty",
+            "quality"
+          ],
+          "review_note": "模拟核查记录，仅用于离线演示。真实决策必须替换来源并逐项核实。"
+        },
+        {
+          "id": "quote_b",
+          "url": "https://example.invalid/synthetic/quote_b",
+          "title": "模拟报价与规格，非真实外部证据",
+          "checked_on": "2026-10-19",
+          "status": "verified",
+          "supports": [
+            "costs",
+            "warranty",
+            "quality"
+          ],
+          "review_note": "模拟核查记录，仅用于离线演示。真实决策必须替换来源并逐项核实。"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "name": "模拟方案A",
+          "currency": "CNY",
+          "costs": {
+            "unit_price": 100,
+            "freight": 50,
+            "setup": 100,
+            "annual_support": 200,
+            "annual_energy": 50,
+            "disposal": 20,
+            "residual_value": 50
+          },
+          "requirements": {
+            "warranty": "pass"
+          },
+          "scores": {
+            "quality": 90
+          },
+          "evidence": {
+            "costs": [
+              "quote_a"
+            ],
+            "warranty": [
+              "quote_a"
+            ],
+            "quality": [
+              "quote_a"
+            ]
+          }
+        },
+        {
+          "id": "B",
+          "name": "模拟方案B",
+          "currency": "CNY",
+          "costs": {
+            "unit_price": 115,
+            "freight": 50,
+            "setup": 0,
+            "annual_support": 50,
+            "annual_energy": 25,
+            "disposal": 20,
+            "residual_value": 50
+          },
+          "requirements": {
+            "warranty": "pass"
+          },
+          "scores": {
+            "quality": 80
+          },
+          "evidence": {
+            "costs": [
+              "quote_b"
+            ],
+            "warranty": [
+              "quote_b"
+            ],
+            "quality": [
+              "quote_b"
+            ]
+          }
+        }
+      ]
+    },
+    "sop": {
+      "as_of": "2026-10-20",
+      "meeting_date": "2026-10-21",
+      "next_meeting_date": "2026-11-21",
+      "opening_date": "2026-11-01",
+      "opening": [
+        {
+          "sku": "001",
+          "location": "GZ",
+          "stock": 20,
+          "backlog": 0
+        }
+      ],
+      "history": [
+        {
+          "sku": "001",
+          "location": "GZ",
+          "period": "2026-08",
+          "actual": 100,
+          "forecast": 110
+        },
+        {
+          "sku": "001",
+          "location": "GZ",
+          "period": "2026-09",
+          "actual": 200,
+          "forecast": 180
+        }
+      ],
+      "plan": [
+        {
+          "sku": "001",
+          "location": "GZ",
+          "period": "2026-11",
+          "demand": 100,
+          "planned_supply": 50,
+          "capacity": 60
+        },
+        {
+          "sku": "001",
+          "location": "GZ",
+          "period": "2026-12",
+          "demand": 80,
+          "planned_supply": 100,
+          "capacity": 90
+        }
+      ],
+      "owners": {
+        "demand": "需求计划员",
+        "supply": "供应计划员",
+        "procurement": "采购专员"
+      },
+      "scenarios": [
+        {
+          "id": "base",
+          "demand_factor": 1,
+          "supply_factor": 1
+        },
+        {
+          "id": "demand_up_20pct",
+          "demand_factor": 1.2,
+          "supply_factor": 1
+        }
+      ]
+    }
+  }
+}

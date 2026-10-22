@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-10-20",
+  "supplier_aliases": {
+    "A Co.": "A"
+  },
+  "spend": [
+    {
+      "id": "0001",
+      "supplier": "A Co.",
+      "category": "components",
+      "period": "2026-09",
+      "amount": 600,
+      "currency": "CNY",
+      "upstream_group": "shared",
+      "critical": true
+    },
+    {
+      "id": "0002",
+      "supplier": "B",
+      "category": "components",
+      "period": "2026-09",
+      "amount": 400,
+      "currency": "CNY",
+      "upstream_group": "shared",
+      "critical": true
+    },
+    {
+      "id": "0003",
+      "supplier": "C",
+      "category": "components",
+      "period": "2026-09",
+      "amount": 100,
+      "currency": "USD"
+    }
+  ],
+  "cycles": [
+    {
+      "id": "C001",
+      "category": "components",
+      "requested": "2026-09-01",
+      "approved": "2026-09-03",
+      "po_created": "2026-09-05",
+      "paid": "2026-09-15"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "D001",
+      "supplier": "A",
+      "due_date": "2026-09-10",
+      "delivered_date": "2026-09-09",
+      "ordered_qty": 100,
+      "delivered_qty": 80
+    },
+    {
+      "id": "D002",
+      "supplier": "A",
+      "due_date": "2026-09-10",
+      "delivered_date": "2026-09-11",
+      "ordered_qty": 100,
+      "delivered_qty": 100
+    }
+  ],
+  "matches": [
+    {
+      "id": "M001",
+      "currency": "CNY",
+      "po_qty": 100,
+      "received_qty": 60,
+      "invoice_qty": 50,
+      "unit_price": 2.5,
+      "invoice_amount": 125,
+      "amount_tolerance": 0.01
+    }
+  ]
+}

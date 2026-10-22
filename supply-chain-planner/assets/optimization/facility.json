@@ -1,0 +1,28 @@
+{
+  "capacity": [
+    5,
+    5,
+    5
+  ],
+  "fixed_cost": [
+    3,
+    1,
+    4
+  ],
+  "demand": [
+    7,
+    2
+  ],
+  "allocation_cost_all_customer_demand": [
+    [
+      1,
+      8,
+      2
+    ],
+    [
+      6,
+      1,
+      3
+    ]
+  ]
+}

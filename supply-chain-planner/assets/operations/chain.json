@@ -1,0 +1,24 @@
+{
+  "currency": "CNY",
+  "dates": ["2026-11-01", "2026-11-02", "2026-11-03", "2026-11-04", "2026-11-05"],
+  "locations": ["工厂仓", "交付仓"],
+  "items": {
+    "原料": {"holding_cost": 0.05, "backlog_cost": 20},
+    "成品": {"holding_cost": 0.1, "backlog_cost": 20}
+  },
+  "initial_stock": [],
+  "demand": [{"date": "2026-11-03", "location": "交付仓", "item": "成品", "qty": 8}],
+  "purchases": [
+    {"id": "raw_regular", "item": "原料", "location": "工厂仓", "order_date": "2026-11-01", "arrival_date": "2026-11-01", "max_qty": 10, "moq": 4, "pack_size": 2, "unit_cost": 1},
+    {"id": "finished_emergency", "item": "成品", "location": "交付仓", "order_date": "2026-11-01", "arrival_date": "2026-11-03", "max_qty": 8, "pack_size": 1, "unit_cost": 8}
+  ],
+  "capacities": {"共享产线": [4, 4, 4, 4, 4]},
+  "production": [{"id": "make", "location": "工厂仓", "output": "成品", "inputs": {"原料": 1}, "lead_days": 0, "capacity_group": "共享产线", "hours_per_unit": 1, "max_per_day": 4, "unit_cost": 2}],
+  "transfers": [{"id": "factory_to_delivery", "item": "成品", "from": "工厂仓", "to": "交付仓", "lead_days": 1, "max_per_day": 8, "unit_cost": 0.5}],
+  "storage_capacity_units": {"工厂仓": 20, "交付仓": 20},
+  "purchase_budget": 64,
+  "scenarios": [
+    {"name": "原料延期2天", "purchase_delays": {"raw_regular": 2}},
+    {"name": "原料延期且应急到货越界", "purchase_delays": {"raw_regular": 2, "finished_emergency": 3}}
+  ]
+}
